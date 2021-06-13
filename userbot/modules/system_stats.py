@@ -165,7 +165,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**★-**⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Versi:** \n "
+            "**★-**⚡King-Fork-Userbot⚡ Versi:** \n "
             f"heads/King-Userbot-0-x634i7u1"
             "\n**★-**Revisi:**\n "
             f"{revout}"
@@ -229,22 +229,22 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"┗┓★ ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ★┏┛\n"
+        f"┗┓★ 🤖King-Fork-Userbot🤖 ★┏┛\n"
         f"\n__**{KING_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━━**\n"
-        f"★ **✭ King ✭** \n"
+        f"★ **✭ King Fork ✭** \n"
         f"☇ : `{DEFAULTUSER}` \n"
         f"★ **✭ Username ✭** \n"
         f"☇ : `@{user.username}` \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━\n"
-        f"|✶ ⚙️ `Telethon :`Ver {version.__version__} \n"
-        f"|✶ 🐍 `Python   :`Ver {python_version()} \n"
-        f"|✶ 👾 `Bot Ver  :`{BOT_VER} \n"
-        f"|✶ 📂 `Plugins  :`{len(modules)} \n"
+        f"|✶ ☃️ `Telethon :`Ver {version.__version__} \n"
+        f"|✶ 🦖 `Python   :`Ver {python_version()} \n"
+        f"|✶ 🧸 `Bot Ver  :`{BOT_VER} \n"
+        f"|✶ 🎁 `Plugins  :`{len(modules)} \n"
         f"╰╼━━━━━━━━━━━━━━━━━━━━━\n"
-        f"⚡ **Repo Userbot :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        f"⚡ **Group Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
-        f"⚡ **Pemilik :** [Developer King](https://t.me/PacarFerdilla)")
+        f"📱 **Repo Userbot :** [🤖King-Fork-Userbot🤖](https://github.com/apisuserbot/King-Userbot) \n"
+        f"📱 **Group Support :** [🧸Klik Disini🧸](https://t.me/Mengvirtual_GC) \n"
+        f"📱 **Pemilik :** [☃️Developer☃️](https://t.me/SkyzoSaja)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -270,9 +270,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"𝗫 ★⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡★ 𝗫 \n"
+        f"𝗫 ★☃️KING-FORK-USERBOT☃️★ 𝗫 \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"╟ 🤴 KING     : {DEFAULTUSER}\n"
+        f"╟ 🤴 KING FORK     : {DEFAULTUSER}\n"
         f"╟ 🔎 Username : @{user.username}\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"╟◈ ⚙️ `Telethon :`v {version.__version__} \n"
@@ -282,8 +282,8 @@ async def amireallyalive(alive):
         f"╟◈ 📂 `Plugins  :`{len(modules)} Plugin \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"◈ **REPO USERBOT  :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
-        f"◈ **PEMILIK :** [Developer King](https://t.me/PacarFerdilla) \n"
+        f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/Mengcirtual_GC) \n"
+        f"◈ **PEMILIK :** [Developer](https://t.me/SkyzoSaja) \n"
         f"━━━━━━━━━━━━━━━━━━━━━╯")
     if ALIVE_LOGO:
         try:
@@ -309,8 +309,8 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑.__")
-    await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑..__")
+    await alive.edit("___Skyzo.__")
+    await alive.edit("___Skyzo.__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑...__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑.__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑..__")
@@ -349,11 +349,11 @@ async def redis(alive):
     await alive.edit("👑𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
     await alive.edit("⚡")
     await asyncio.sleep(3)
-    await alive.edit("😈")
+    await alive.edit("🤬")
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f" ㅤ**★ ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ★** \n"
+        f" ㅤ**★ ☃️KING-FORK-USERBOT☃️ ★** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
@@ -370,7 +370,7 @@ async def redis(alive):
         f"│    **Dengan Link Di Bawah Ini.** \n"
         f"╰╼════════════════════╾╯ \n"
         f"[Repo Userbot](https://apisuserbot.github.io/King-Userbot) | [Grup Support](t.me/KingUserbotSupport) | "
-        f"[Developer King](t.me/PacarFerdilla)")
+        f"[Developer](t.me/SkyzoSaja)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
