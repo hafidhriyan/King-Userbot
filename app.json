@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/apisuserbot/King-Userbot",
-  "telegram": "https://t.me/PacarFerdilla",
-  "success_url": "https://t.me/PacarFerdilla",
+  "repository": "https://github.com/ridho17-ind/King-Userbot",
+  "telegram": "https://t.me/skyzosaja",
+  "success_url": "https://t.me/skyzosaja",
   "stack": "container",
   "env": {
     "API_KEY": {
