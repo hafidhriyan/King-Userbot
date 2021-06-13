@@ -35,16 +35,16 @@ async def _(event):
 
         animation_chars = [
 
-            "👁👁\n  👄  =====> Hey, How are you?",
-            "👁👁\n  👅  =====> Everything okay?",
-            "👁👁\n  💋  =====> Why are you staring at this?",
-            "👁👁\n  👄  =====> You idiot",
-            "👁👁\n  👅  =====> Go away",
-            "👁👁\n  💋  =====> Stop laughing",
-            "👁👁\n  👄  =====> It's not funny",
-            "👁👁\n  👅  =====> I guess ur still looking",
-            "👁👁\n  💋  =====> Ok retard 😑",
-            "👁👁\n  👄  =====> I go away then"
+            "👁👁\n  👄  =====> Woi, Lu Anak Anjing🤭",
+            "👁👁\n  👅  =====> Udah Tolol Goblok Lagi🤣",
+            "👁👁\n  💋  =====> Kek Kontol Ah Anjing😁",
+            "👁👁\n  👄  =====> Huhhhhh Babi😂",
+            "👁👁\n  👅  =====> Dahlah Males Ngomong Ama😭",
+            "👁👁\n  💋  =====> Anak Anjing😐",
+            "👁👁\n  👄  =====> Ga Guna Babi Babi😙",
+            "👁👁\n  👅  =====> Wkwkwkwkwk Tolol🥴",
+            "👁👁\n  💋  =====> Byeee Anak Pungut🥱",
+            "👁👁\n  👄  =====> Jan Ngelunjak Lu Ya Nak Pungut🥺",
         ]
 
         for i in animation_ttl:
@@ -130,7 +130,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "Click your Gift [🎁](http://giphygifs.s3.amazonaws.com/media/5Y2bU7FqLOuzK/giphy.mp4)"]
+            "Cek Hadiahmu [🎁](https://t.me/Mengvirtual_Gc"]
 
         for i in animation_ttl:
 
@@ -208,7 +208,7 @@ async def _(event):
             "------------------>",
             "------>;(^。^)ノ",
             "(￣ー￣) Mati",
-            "**Target Berhasil Di Bunuh (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
+            "**Target Berhasil Di Bunuh Wkwkw Mati Lu Anjing (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
         ]
 
         for i in animation_ttl:
@@ -548,7 +548,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🔴👈](t.me/heyworld)"]
+            "[👉🟡👈](https://t.me/Mengvirtual_GC)"]
 
         for i in animation_ttl:
 
@@ -2168,7 +2168,7 @@ async def _(event):
 
             "🖤",
 
-            "❤️"
+            "**Join Ya Sayang** @Mengvirtual_Gc"
             "‎"
 
         ]
@@ -2219,7 +2219,7 @@ async def _(event):
 
 
 
-            "__**...BOY oh BOY! i feel like a wamen....**__"
+            "__**...BOY oh BOY!....**__ Mending Join @Mengvirtual_GC"
 
         ]
 
@@ -2299,7 +2299,7 @@ async def _(event):
 
             "🖕‎🐵🖕",
 
-            "**OPPA MONEKEYY Style....**"
+            "**Woi Monyet, Join Lah Gc Gua @Mengvirtual_GC....**"
 
         ]
 
@@ -2405,7 +2405,7 @@ async def _(event):
 
             "0️⃣",
 
-            "🆘"
+            "**JOIN NGENTOT @MENGVIRTUAL_GC**"
 
         ]
 
