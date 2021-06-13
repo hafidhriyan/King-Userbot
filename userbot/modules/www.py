@@ -84,10 +84,10 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**╰━❖  king ping ❖━╯**\n"
-                    f"☞ __ping:__ "
+    await pong.edit(f"**╰━❖  King Ping ❖━╯**\n"
+                    f"☞ **📱Ping Bot:** "
                     f"`%sms` \n"
-                    f"☞ __i'm online:__ "
+                    f"☞ **🧸I'm online:** "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -113,19 +113,19 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("**Memulai Test Sinyal**")
-    await pong.edit("**..Mohon menunggu..**")
-    await pong.edit("**...................**")
-    await pong.edit("**DUARRR!**")
+    await pong.edit("**..Sans Bentar Lagi..**")
+    await pong.edit("**Tod Tod Tod Ngen..**")
+    await pong.edit("**Sabar Anjing**")
     await pong.edit("**................**")
-    await pong.edit("⚡️")
+    await pong.edit("🤪")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"卍════〠 **TEST PING** 〠════卍\n"
-                    f"═⎆ **Ping:** "
+                    f"═⎆ **🤖Ping Bot:** "
                     f"`%sms` \n"
-                    f"═⎆ **Sisa Waktu:** "
+                    f"═⎆ **☃️Sisa Waktu:** "
                     f"`{uptime}` \n"
-                    f"**✠➲ King:** `{ALIVE_NAME}`" % (duration))
+                    f"**✠➲ 🧸MyKing:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -143,9 +143,9 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"- K I N G -\n"
-                    f"**☞ sinyal  :** "
+                    f"**☞ Sinyal Bangke  :** "
                     f"`%sms` \n"
-                    f"**☞ i'm online  :** "
+                    f"**☞ I'm online  :** "
                     f"`{uptime}` \n"
                     f"__|━|⎆__ **My king  :** `{ALIVE_NAME}`" % (duration))
 
@@ -205,7 +205,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\n\n"
+                   "✧ **BOT:** 🤖King-Fork-Skyzo🤖\n\n"
                    f" ━━━━━━━━━━━━━━━━━ ")
 
 
