@@ -328,7 +328,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```🤖King-Fork-Userbot🤖 Telah Aktif Bangsat, Pake Yang Bener Ya Anjiing```")
     return
 
 with bot:
@@ -408,7 +408,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Buat Userbot Mu Sendiri Dengan cara [Tekan Disini](https://github.com/apisuserbot/King-Userbot.git)")
+                await event.reply("⚡Fork-King-Userbot⚡, Buat Userbot Mu Sendiri Dengan cara [Tekan Disini](https://github.com/apisuserbot/King-Userbot.git)")
             else:
                 await event.reply(f"`👋🏻 Hai King {ALIVE_NAME}\n\nApa Kabarmu? ^_^`")
 
@@ -423,16 +423,16 @@ with bot:
                     "Harap Gunakan .help Untuk Perintah", text="{}"
                     f"\n\n◎› **King** {DEFAULTUSER}\n\n"
                     "◎› **Plugins :** `{}`\n◎› **Menu Plugins ↯** \n".format(
-                        "**⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**", len(dugmeler), ), buttons=buttons, link_preview=False, )
+                        "**⚡Fork-King-Userbot⚡**", len(dugmeler), ), buttons=buttons, link_preview=False, )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan ⚡Fork-King-Userbot⚡ ",
                     text="◎› Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**",
+                    "**⚡Fork-King-Userbot⚡**",
                     text="""**Anda Bisa Membuat King Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/KingUserbotSupport)""",
                     buttons=[
                         [
@@ -441,7 +441,7 @@ with bot:
                                 "https://github.com/apisuserbot/King-Userbot"),
                             custom.Button.url(
                                 "Developer",
-                                "t.me/PacarFerdilla")],
+                                "t.me/SkyzoSaja")],
                     ],
                     link_preview=False,
                 )
