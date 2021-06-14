@@ -49,7 +49,7 @@ async def koc(e):
         sleep(1)
         await e.edit("**Suatu Saat**")
         sleep(1)
-        await e.edit("**Pasti Ada Yang Mau")
+        await e.edit("**Pasti Ada Yang Mau**")
         sleep(1)
         await e.edit("**Nerima Gua**")
         sleep(1)
@@ -69,7 +69,7 @@ async def koc(e):
         sleep(1)
         await e.edit("**Bangkelah**")
         sleep(1)
-        await e.edit("😭")
+        await e.edit("Dari sekian banyak game dari play store kenapa malah hati gua yg lu mainin sih ajg😭")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -84,8 +84,8 @@ async def typewriter(typew):
                      "`\n/>💔  Kok Patah?`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
-                     "`\n(●_●)`"
-                     "`\n💔<\\  Di Kasih Gratis Malah Di Rusakin:(`")
+                     "`\n(-_-)`"
+                     "`\n💔<\\  Di Kasih Gratis Malah Di Rusakin_-`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -106,7 +106,7 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "`Cerita ❤️ Cinta` ",
+            "`Cerita 💛 Cinta` ",
             "  😐             😕 \n/👕\\         <👗\\ \n 👖               /|",
             "  😉          😳 \n/👕\\       /👗\\ \n  👖            /|",
             "  😚            😒 \n/👕\\         <👗> \n  👖             /|",
