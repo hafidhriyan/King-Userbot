@@ -72,10 +72,10 @@ async def pingme(pong):
     """ For .kping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("⚡")
-    await pong.edit("__**...💠KING💠...**__")
-    await pong.edit("__**.....USERBOT.....**__")
-    await pong.edit("__**......MOHON MENUNGGU......**__")
+    await pong.edit("☃️")
+    await pong.edit("__**...💠SKYZO💠...**__")
+    await pong.edit("__**.....GANSS.....**__")
+    await pong.edit("__**......SABAR BABI......**__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
     await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
     await pong.edit("**40% ████▒▒▒▒▒▒**")
@@ -96,8 +96,8 @@ async def pingme(pong):
     """ For .xping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....⚡King⚡.....`")
-    await pong.edit("`⚡️`")
+    await pong.edit("`.....🧸King Fork🧸.....`")
+    await pong.edit("`🤪`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"•⎚• ⎆ __King__ **Pong!**\n"
@@ -120,7 +120,7 @@ async def pingme(pong):
     await pong.edit("🤪")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"卍════〠 **TEST PING** 〠════卍\n"
+    await pong.edit(f"卍════🐲 **TEST PING** 🐲════卍\n"
                     f"═⎆ **🤖Ping Bot:** "
                     f"`%sms` \n"
                     f"═⎆ **☃️Sisa Waktu:** "
@@ -133,7 +133,7 @@ async def pingme(pong):
     """ For .sinyal command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`Mengecek Sinyal...`")
+    await pong.edit("`Mengecek Sinyal Babi...`")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
     await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
     await pong.edit("**40% ████▒▒▒▒▒▒**")
@@ -142,7 +142,7 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- K I N G -\n"
+    await pong.edit(f"- F O R K -\n"
                     f"**☞ Sinyal Bangke  :** "
                     f"`%sms` \n"
                     f"**☞ I'm online  :** "
@@ -155,8 +155,8 @@ async def pingme(pong):
     """ For .uping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("__KING__")
-    await pong.edit("__PONG__")
+    await pong.edit("__Eaaaa__")
+    await pong.edit("__Test Ping__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"┏━━| **KING PONG** |━━卍\n"
@@ -197,15 +197,15 @@ async def speedtst(spd):
                    "🛠 **Dimulai Pada:** "
                    f"`{result['timestamp']}` \n"
                    f" ━━━━━━━━━━━━━━━━━\n\n"
-                   "✧ **Download:** "
+                   "✧ **📠Download:** "
                    f"`{speed_convert(result['download'])}` \n"
-                   "✧ **Upload:** "
+                   "✧ **🎞️Upload:** "
                    f"`{speed_convert(result['upload'])}` \n"
-                   "✧ **Ping:** "
+                   "✧ **🤖Ping:** "
                    f"`{result['ping']}` \n"
-                   "✧ **ISP:** "
+                   "✧ **🚀ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** 🤖King-Fork-Skyzo🤖\n\n"
+                   "✧ **🐲BOT:** King-Fork-Skyzo\n\n"
                    f" ━━━━━━━━━━━━━━━━━ ")
 
 
@@ -223,17 +223,17 @@ async def speedtst(spd):
     result = test.results.dict()
 
     msg = (
-        f"**Dimulai pada {result['timestamp']}**\n\n"
-        "**Klien**\n"
-        f"**ISP :** `{result['client']['isp']}`\n"
-        f"**Negara :** `{result['client']['country']}`\n\n"
-        "**Server**\n"
-        f"**Nama :** `{result['server']['name']}`\n"
-        f"**Negara :** `{result['server']['country']}`\n"
-        f"**Sponsor :** `{result['server']['sponsor']}`\n\n"
-        f"**Ping :** `{result['ping']}`\n"
-        f"**Upload :** `{humanbytes(result['upload'])}/s`\n"
-        f"**Download :** `{humanbytes(result['download'])}/s`"
+        f"**📱Dimulai pada {result['timestamp']}**\n\n"
+        "**📠Klien**\n"
+        f"**🚀ISP :** `{result['client']['isp']}`\n"
+        f"**🇮🇩Negara :** `{result['client']['country']}`\n\n"
+        "**🥏Server**\n"
+        f"**🐲Nama :** `{result['server']['name']}`\n"
+        f"**🇮🇩Negara :** `{result['server']['country']}`\n"
+        f"**🖥️Sponsor :** `{result['server']['sponsor']}`\n\n"
+        f"**🧸Ping :** `{result['ping']}`\n"
+        f"**🖨️Upload :** `{humanbytes(result['upload'])}/s`\n"
+        f"**📟Download :** `{humanbytes(result['download'])}/s`"
     )
 
     await spd.delete()
