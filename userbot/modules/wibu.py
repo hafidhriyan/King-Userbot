@@ -36,3 +36,17 @@ async def typewriter(typew):
     await typew.edit("**Istrinya Kartun**")
     sleep(1)
     await typew.edit("**Dasar Wibu**")
+
+
+CMD_HELP.update(
+    {
+        "king": "**✘ Plugin :** `wibu`\
+        \n\n  •  **Perintah :** `.wibu`\
+        \n  •  **Function : **Untuk melihat sesuatu yang menarik\
+        \n  •  **Function : **Lari Cuk Ada Wibuuu Arghhhh**\
+        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
+        \n\n  ** Perintah kosong **\
+        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
+    "
+    }
+)
