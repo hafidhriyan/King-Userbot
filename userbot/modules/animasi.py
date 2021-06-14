@@ -24,7 +24,7 @@ async def koc(e):
         await e.edit("**MAKASIH SAYANG**🥺")
         await e.edit("**LOPYU**")
         await e.edit("**KAMU**")
-        await e.edit("*"SELAMANYA** 💕")
+        await e.edit("**SELAMANYA** 💕")
         await e.edit("💘💘💘💘")
         await e.edit("**SAYANG**")
         await e.edit("**KAMU**")
