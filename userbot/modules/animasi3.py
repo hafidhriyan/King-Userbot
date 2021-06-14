@@ -11,36 +11,36 @@ import asyncio
 @register(outgoing=True, pattern="^.hua$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("أ‿أ")
-        await e.edit("╥﹏╥")
-        await e.edit("(;﹏;)")
-        await e.edit("(ToT)")
-        await e.edit("(┳Д┳)")
-        await e.edit("(ಥ﹏ಥ)")
-        await e.edit("（；へ：）")
-        await e.edit("(T＿T)")
-        await e.edit("（πーπ）")
-        await e.edit("(Ｔ▽Ｔ)")
-        await e.edit("(⋟﹏⋞)")
-        await e.edit("（ｉДｉ）")
-        await e.edit("(´Д⊂ヽ")
-        await e.edit("(;Д;)")
-        await e.edit("（>﹏<）")
-        await e.edit("(TдT)")
-        await e.edit("(つ﹏⊂)")
-        await e.edit("༼☯﹏☯༽")
-        await e.edit("(ノ﹏ヽ)")
-        await e.edit("(ノAヽ)")
-        await e.edit("(╥_╥)")
-        await e.edit("(T⌓T)")
-        await e.edit("(༎ຶ⌑༎ຶ)")
-        await e.edit("(☍﹏⁰)｡")
-        await e.edit("(ಥ_ʖಥ)")
-        await e.edit("(つд⊂)")
-        await e.edit("(≖͞_≖̥)")
-        await e.edit("(இ﹏இ`｡)")
-        await e.edit("༼ಢ_ಢ༽")
-        await e.edit("༼ ༎ຶ ෴ ༎ຶ༽")
+        await e.edit("**Gua Di Ghosting**")
+        await e.edit("🙂")
+        await e.edit("**Sakit Rasanya**")
+        await e.edit("**Kenapa Sih**")
+        await e.edit("**Suka Banget Nyakitin?**")
+        await e.edit("**Hati Gua Bukan Di Buat Main-Main**")
+        await e.edit("**Tega Banget Ya Lu**")
+        await e.edit("**Nyesek Kenal Sama Lu**")
+        await e.edit("😭")
+        await e.edit("**Nyakitin Mulu**")
+        await e.edit("**Nggak Pernah Bikin**")
+        await e.edit("**Gua Bahagia**")
+        await e.edit("**Tapi Ya Gimana**")
+        await e.edit("**Memang Sudah Begini**")
+        await e.edit("**Mau Nggak Mau**")
+        await e.edit("**Harus Sabar**")
+        await e.edit("**Walau Sering Di Sakitin**")
+        await e.edit("**Tapi Gua Yakin**")
+        await e.edit("**Suatu Saat**")
+        await e.edit("**Pasti Ada Yang Mau")
+        await e.edit("**Nerima Gua**")
+        await e.edit("**Apa Adanya:)**")
+        await e.edit("🥺")
+        await e.edit("**Walaupun Sekarang**")
+        await e.edit("**Masih Sering**")
+        await e.edit("**Di Sia-Sia Kan**")
+        await e.edit("**Tapi Harus Tetap Kuat**")
+        await e.edit("**Hahaha**")
+        await e.edit("**Bangkelah**")
+        await e.edit("😭")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -48,15 +48,15 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n />❤️ *Ini Buat Kamu`")
+                     "`\n />❤️ Ini Buat Kamu`")
     sleep(3)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n/>💔  *Aku Ambil Lagi`")
+                     "`\n/>💔  Kok Patah?`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *Terimakasih`")
+                     "`\n💔<\\  Di Kasih Gratis Malah Di Rusakin:(`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -90,7 +90,7 @@ async def _(event):
             "😎 \n/\\_,__😫 \n  //    //       \\",
             "😖 \n/\\_,💦_😋  \n  //         //        \\",
             "  😭      ☺️ \n  /|\\   /(👶)\\ \n  /!\\   / \\ ",
-            "`TAMAT 😅`"]
+            "`TAMAT DUNIA ISINYA NGEN DOANG ANJING😭`"]
 
         for i in animation_ttl:
 
@@ -136,11 +136,11 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n />💖 *Ini Buat Kamu`")
+                     "`\n />💖  Ini Buat Kamu`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💖<\\  *Tapi Bo'ong`")
+                     "`\n💖<\\  Tapi Bo'ong`")
 # Apis Gans
 
 
