@@ -36,7 +36,17 @@ async def typewriter(typew):
     await typew.edit("**Istrinya Kartun🤾🏻**")
     sleep(1)
     await typew.edit("**Dasar Wibu😨**")
-
+    sleep(1)
+    await typew.edit("**Maaf Wibu🤼‍♂️**")
+    sleep(1)
+    await typew.edit("**Aku Tidak Akan🤾🏻**")
+    sleep(1)
+    await typew.edit("**Mengulanginya Lagi🏃🏻**")
+    sleep(1)
+    await typew.edit("**Tapi Bo'ong🤾🏻**")
+    sleep(1)
+    await typew.edit("**Dasar Wibu, Istri Kartun🪂**")
+    
 
 CMD_HELP.update(
     {
