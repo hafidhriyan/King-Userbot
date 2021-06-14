@@ -17,13 +17,25 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Mengsedih🥺**")
     sleep(1)
-    await typew.edit("**Orang Ganteng Gini**")
+    await typew.edit("**Iya Gua Tau Gua Gak**")
     sleep(2)
-    await typew.edit("**Kok Di Sia-Sia In😭**")
+    await typew.edit("**Goodloking**")
     sleep(2)
-    await typew.edit("**Salahkan Jika Orang Mencintaimu?**")
+    await typew.edit("**Tapi Gua Juga Ada**")
     sleep(2)
-    await typew.edit("Dahlah Males Gua")
+    await typew.edit("**Perasaan**")
+    sleep(2)
+    await typew.edit("**Dan Gua Udah Sayang Ke Elu**")
+    sleep(2)
+    await typew.edit("**Kok Malah Di Sia-Sia In😭**")
+    sleep(2)
+    await typew.edit("**Emang Salah Ya Gua Suka Sama Lu?**")
+    sleep(2)
+    await typew.edit("**Dahlah Males Gua**")
+    sleep(2)
+    await typew.edit("😭")
+    sleep(2)
+    await typew.edit("🥺")
 
 # Create by myself @localheart
 
@@ -66,7 +78,7 @@ async def _(event):
         " -^-^-^- **Y** -^-^-^- \n"
         " -^-^-^- **Z** -^-^-^- \n"
         " -^-^-^- **O** -^-^-^- \n"
-        "__**USERBOT TELEGRAM**__ \n"
+        "__**🐲USERBOT TELEGRAM🐲**__ \n"
         "━━━━━━━━━━━━━━━━━━━━━\n"
         f"__**Hai aku adalah bot king fork assisten {ALIVE_NAME} yang menjaga akun ini**__ \n"
         "__**Terimakasih**__ \n"
