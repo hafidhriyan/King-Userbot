@@ -118,47 +118,6 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Gak keren lu begitu tolol, kuburan bapak lu gw gali buat dijadiin kolam renang anak paud.Cuihhhhh!!!**")
 
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**Afreal Stres☑️**")
-    await typew.edit("**Afreal Stres✅**")
-    sleep(3)
-    await typew.edit("**Anggra Gilaa☑️**")
-    await typew.edit("**Anggra Gilaa✅**")
-    sleep(2)
-    await typew.edit("**Abdul Depresi☑️**")
-    await typew.edit("**Abdul Depresi✅**")
-    sleep(2)
-    await typew.edit("**Yunus Gajelas☑️**")
-    await typew.edit("**Yunus Gajelas✅**")
-    sleep(2)
-    await typew.edit("**Eggyol Babi!☑️**")
-    await typew.edit("**Eggyol Babi!✅**")
-    sleep(2)
-    await typew.edit("**Fauza Wibu Gagak!☑️**")
-    await typew.edit("**Fauza Wibu Gagak!✅**")
-    sleep(2)
-    await typew.edit("**Lynxking Tolol!☑️**")
-    await typew.edit("**Lynzking Tolol!✅**")
-    sleep(2)
-    await typew.edit("**Feri,Mengintil!☑️**")
-    await typew.edit("**Feri,Mengintil!✅**")
-    sleep(2)
-    await typew.edit("**CUMA SKYZO YANG BENER😎**")
-
-# Create by myself @localheart
-
-CMD_HELP.update({
-    "rambot":
-    "`.rambot`\
-    \nUsage: menampilkan alive bot.\
-    \n\n`.sadboy`\
-    \nUsage: hiks\
-    \n\n`.punten` ; `.geez`\
-    \nUsage: misi."
-})
-
 
 CMD_HELP.update({
     "salam":
