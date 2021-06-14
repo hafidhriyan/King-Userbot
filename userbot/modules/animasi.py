@@ -11,30 +11,30 @@ import asyncio
 @register(outgoing=True, pattern="^.sayang$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("I LOVEE YOUUU 💕")
-        await e.edit("💝💘💓💗")
+        await e.edit("**I LOVEE YOUUU** 💕")
+        await e.edit("**SAYANGGG**")
+        await e.edit("**AKU!**")
+        await e.edit("**SANGE**")
+        await e.edit("🥺")
+        await e.edit("**MAU DONG**💞💗")
+        await e.edit("**AYOKK NGEN**💞💕💗")
+        await e.edit("💝🥺💘")
+        await e.edit("**PLISS**💗")
         await e.edit("💞💕💗💘")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💘💞💗💕")
-        await e.edit("💘💞💕💗")
-        await e.edit("SAYANG KAMU 💝💖💘")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💘💞💕💗")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("SELAMANYA 💕")
+        await e.edit("**MAKASIH SAYANG**🥺")
+        await e.edit("**LOPYU**")
+        await e.edit("**KAMU**")
+        await e.edit("*"SELAMANYA** 💕")
         await e.edit("💘💘💘💘")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
+        await e.edit("**SAYANG**")
+        await e.edit("**KAMU**")
+        await e.edit("**SANGE GAK?**")
+        await e.edit("🤪")
         await e.edit("I LOVE YOUUUU")
         await e.edit("MY BABY")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
-        await e.edit("SAYANG KAMU💞")
+        await e.edit("**UDAH WOI**💞")
 
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
@@ -428,10 +428,10 @@ async def _(event):
     event.pattern_match.group(1)
     await event.edit(
         " **Hay Semua** __Aku Userbot__ 😎 \n"
-        " **Aku Belajar Di** [Grup Support](https://t.me/KingUserbotSupport) \n"
+        " **Jangan Lupa Join** [Grup Support](https://t.me/Mengvirtual_GC) \n"
         " __Seru Lho Jadi Pengguna Userbot__ 🥳 \n"
         " **Dengan Berbagai Macam Plugin Dan Perintah Userbot** \n"
-        " __Dibuat Oleh :__ [Developer King](https://t.me/PacarFerdilla) ")
+        " __Dibuat Oleh :__ [Developer](https://t.me/SkyzoSaja) ")
 
 
 @register(outgoing=True, pattern='^.terkadang(?: |$)(.*)')
@@ -504,19 +504,19 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`I NEED YOU!`")
     sleep(1)
-    await typew.edit("`I WANT TO BE YOUR BOYFRIEND!`")
+    await typew.edit("`I WANT TO BE YOUR GRILFRIEND!`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💕💗`")
+    await typew.edit("`I LOVEE YOUUUU💕🥴💗`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💗💞`")
+    await typew.edit("`I LOVEE YOUUUU💗🥺💞`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💝💗`")
+    await typew.edit("`I LOVEE YOUUUU💝😙💗`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💟💖`")
+    await typew.edit("`I LOVEE YOUUUU💟🙂💖`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💘💓`")
+    await typew.edit("`I LOVEE YOUUUU💘💓🥰`")
     sleep(1)
-    await typew.edit("`Tapi Bo'ong`")
+    await typew.edit("`Tapi Bo'ong, Baperan Wkwkwkwk`")
 # Create by myself @localheart
 
 CMD_HELP.update(
