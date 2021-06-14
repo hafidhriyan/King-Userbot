@@ -9,11 +9,17 @@ from userbot.events import register
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit("`Pertama-tama kamu cantik`")
+    await typew.edit("**Pertama-tama kamu cantik**")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("**Kedua kamu manis**")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await typew.edit("**Dan yang terakhir adalah kamu bukan jodohku**")
+    sleep(2)
+    await typew.edit("**Mengsedih🥺**")
+    sleep(1)
+    await typew.edit("**Orang Ganteng Gini**")
+    sleep(2)
+    await typew.edit("**Kok Di Sia-Sia In😭**")
 
 # Create by myself @localheart
 
@@ -51,16 +57,17 @@ async def typewriter(typew):
 async def _(event):
     event.pattern_match.group(1)
     await event.edit(
+        " -^-^-^- **S** -^-^-^- \n"
         " -^-^-^- **K** -^-^-^- \n"
-        " -^-^-^- **I** -^-^-^- \n"
-        " -^-^-^- **N** -^-^-^- \n"
-        " -^-^-^- **G** -^-^-^- \n"
+        " -^-^-^- **Y** -^-^-^- \n"
+        " -^-^-^- **Z** -^-^-^- \n"
+        " -^-^-^- **O** -^-^-^- \n"
         "__**USERBOT TELEGRAM**__ \n"
         "━━━━━━━━━━━━━━━━━━━━━\n"
         f"__**Hai aku adalah bot king assisten {ALIVE_NAME} yang menjaga akun ini**__ \n"
         "__**Terimakasih**__ \n"
         "`Enjoy:)` \n"
-        "__**Developer by :**__ [Apis](https://t.me/PacarFerdilla) ")
+        "__**Developer by :**__ [Skyzo](https://t.me/SkyzoSaja) ")
 
 CMD_HELP.update(
     {
