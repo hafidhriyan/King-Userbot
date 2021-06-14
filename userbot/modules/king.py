@@ -22,6 +22,8 @@ async def typewriter(typew):
     await typew.edit("**Kok Di Sia-Sia In😭**")
     sleep(2)
     await typew.edit("**Salahkan Jika Orang Mencintaimu?**")
+    sleep(2)
+    await typew.edit("Dahlah Males Gua")
 
 # Create by myself @localheart
 
@@ -70,7 +72,6 @@ async def _(event):
         "__**Terimakasih**__ \n"
         "**Enjoy Hahaha:)** \n"
         "__**Developer by :**__ [Skyzo](https://t.me/SkyzoSaja) ")
-        "__**Join Grup Support :**__[VIRTUAL](https://t.me/Mengvirtual_Gc) ")
 
 CMD_HELP.update(
     {
