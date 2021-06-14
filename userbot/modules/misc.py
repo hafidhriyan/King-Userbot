@@ -53,7 +53,7 @@ async def randomise(items):
 async def sleepybot(time):
     """ For .sleep command, let the userbot snooze for a few second. """
     counter = int(time.pattern_match.group(1))
-    await time.edit("`Saya tidur dulu King...⚡️`")
+    await time.edit("`Saya tidur dulu Tuan...⚡️`")
     if BOTLOG:
         str_counter = time_formatter(counter)
         await time.client.send_message(
@@ -95,7 +95,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "★ **Repo dan file userbot** ★\n"
-        "\n☇ [Repo ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️](https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/README.md)"
+        "\n☇ [Repo ⚡️King-Fork-Userbot⚡️](https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/README.md)"
         "\n☇ [Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n☇ [Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n☇ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -124,10 +124,10 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         f"   ✘ **i'm** {DEFAULTUSER} **using userbot** ✘   \n"
         "         🔥 __Thanks for userbot__ 🔥   \n"
-        "✣ **Repo Userbot :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/TeamKingUserbot) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/PacarFerdilla) \n"
+        "✣ **Repo Userbot :** [King](https://github.com/apisuserbot/King-Userbot) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/Mengvirtual_Gc) \n"
+        "✣ **Channel Support :** [Klik Disini](https://t.me/gabutseger) \n"
+        "✣ **Pemilik :** [Developer](https://t.me/SkyzoSaja) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -138,9 +138,9 @@ async def repo_is_here(wannasee):
         "         ✘ **String Session Userbot** ✘   \n"
         "          🔥 __Thanks for userbot__ 🔥  \n"
         "✣ **Get string session :** [String Session](https://replit.com/@apisuserbot/String-Session?v=1) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/TeamKingUserbot) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/PacarFerdilla) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/mengvirtual_gc) \n"
+        "✣ **Channel Support :** [Klik Disini](https://t.me/gabutseger) \n"
+        "✣ **Pemilik :** [Developer King](https://t.me/skyzosaja) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -151,9 +151,9 @@ async def repo_is_here(wannasee):
         "         ✘ **Tutorial Using Userbot** ✘   \n"
         "          🔥 __Thanks for userbot__ 🔥  \n"
         "✣ **Tutorial :** [Tutorial Deploy](https://t.me/TeamKingUserbot/16) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/TeamKingUserbot) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/PacarFerdilla) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/mengvirtual_gc) \n"
+        "✣ **Channel Support :** [Klik Disini](https://t.me/gabutseger) \n"
+        "✣ **Pemilik :** [Developer King](https://t.me/skyzosaja) \n"
         "          ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -340,7 +340,7 @@ CMD_HELP.update(
     {
         "sleep": "**✘ Plugin : **`sleep`\
         \n\n  •  **Perintah :** `.sleep`\
-        \n  •  **Function : **Biarkan ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ tidur selama beberapa detik \
+        \n  •  **Function : **Biarkan ⚡️King-Fork-Userbot⚡️ tidur selama beberapa detik \
     "
     }
 )
@@ -348,13 +348,13 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "repo": "**✘ Plugin : **`Repository` ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\
+        "repo": "**✘ Plugin : **`Repository` ⚡️King-Fork-Userbot⚡️\
         \n\n  •  **Perintah :** `.repo`\
-        \n  •  **Function : **Menampilan link Repository ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\
+        \n  •  **Function : **Menampilan link Repository ⚡️King-Fork-Userbot⚡️\
         \n\n  •  **Perintah :** `.string`\
-        \n  •  **Function : **Menampilan link String ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\
+        \n  •  **Function : **Menampilan link String ⚡️King-Fork-Userbot⚡️\
         \n\n  • **Perintah :** `.tutorial`\
-        \n  •  **Function : **Menampilkan link Tutorial ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\
+        \n  •  **Function : **Menampilkan link Tutorial ⚡️King-Fork-Userbot⚡️\
     "
     }
 )
@@ -372,7 +372,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "restart": "**✘ Plugin : **`Restart` ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\
+        "restart": "**✘ Plugin : **`Restart` ⚡️King-Fork-Userbot⚡️\
         \n\n  •  **Perintah :** `.restart`\
         \n  •  **Function : **Untuk Merestart userbot.\
     "
