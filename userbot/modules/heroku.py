@@ -130,7 +130,7 @@ async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
     """
-    await dyno.edit("`Mengecek kuota...⚡️`")
+    await dyno.edit("`Mengecek kuota, Sabar Babi...`")
     await asyncio.sleep(1)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
@@ -181,17 +181,17 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"★ **INFO KUOTA KING** ★\n╔══════━━━━━━━══════╗ \n"
-                f" ➠ **Penggunaan Kuota :** `{app.name}` \n"
-                f"• **Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
-                f"• **Persen** : `{AppPercentage}`**%**\n"
+                f"★ **INFO KUOTA SKYZO** ★\n╔══════━━━━━━━══════╗ \n"
+                f" ➠ **☃️Penggunaan Kuota :☃️** `{app.name}` \n"
+                f"• **🚀Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
+                f"• **🚀Persen** : `{AppPercentage}`**%**\n"
                 f"◖═══════════════════◗ \n"
-                f" ➠ **Sisa Kuota Bulan Ini :**\n"
-                f"• **Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
-                f"• **Persen** :  `{percentage}`**%**\n"
+                f" ➠ **☃️Sisa Kuota Bulan Ini☃️ :**\n"
+                f"• **🚀Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
+                f"• **🚀Persen** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
-                f"◈ **KING**  : {ALIVE_NAME} \n"
-                f"◈ **REPO** : [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
+                f"◈ **🧸KING**  : {ALIVE_NAME} \n"
+                f"◈ **🧸OWNER** : [SKYZO](https://t.me/skyzosaja) \n"
             )
             await asyncio.sleep(20)
             await event.delete()
