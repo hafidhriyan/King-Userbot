@@ -182,11 +182,11 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 f"★ **INFO KUOTA SKYZO** ★\n╔══════━━━━━━━══════╗ \n"
-                f" ➠ **☃️Penggunaan Kuota :☃️** `{app.name}` \n"
+                f" ➠ **🏕️Penggunaan Kuota :🏕️** `{app.name}` \n"
                 f"• **🚀Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
                 f"• **🚀Persen** : `{AppPercentage}`**%**\n"
                 f"◖═══════════════════◗ \n"
-                f" ➠ **☃️Sisa Kuota Bulan Ini☃️ :**\n"
+                f" ➠ **🏆Sisa Kuota Bulan Ini🏆 :**\n"
                 f"• **🚀Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
                 f"• **🚀Persen** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
