@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`📮King-Fork-Userbot📮 Sukses Di Deploy!`\n" "`Memulai Ulang, Mohon Menunggu Tuan.....🚀`")
+            await event.edit("`📮King-Fork-Userbot📮 Sukses Di Deploy!`\n" "`Memulai Ulang, Mohon Menunggu Babi.....🚀`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n🧸King-Fork-Userbot🧸 **Sudah Versi Terbaru Jan Di Update Mulu Babi**\n')
+            f'\n__🧸King-Fork-Userbot🧸__ **Sudah Versi Terbaru Jan Di Update Mulu Babi**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**✣ Pembaruan Untuk** ☃️King-Fork-Userbot☃️ [{ac_br}]:\n\n**⎆ Pembaruan :**\n`{changelog}`'
+        changelog_str = f'**✣ Pembaruan Untuk** __King-Fork-Userbot__ [{ac_br}]:\n\n**⎆ Pembaruan :**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update** ☃️King-Fork-Userbot☃️\n•  ** Perintah ** `.update now`\n•  ** Perintah ** `.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari King-Fork-Userbot.__')
+        return await event.respond('**Perintah Untuk Update** __King-Fork-Userbot__\n•  ** Perintah ** `.update now`\n•  ** Perintah ** `.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari King-Fork-Userbot.__')
 
     if force_update:
         await event.edit(
