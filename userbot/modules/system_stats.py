@@ -316,38 +316,50 @@ async def redis(alive):
     await alive.edit("__Userbot..__")
     await alive.edit("__Di Fork...__")
     await alive.edit("__Oleh..__")
-    await alive.edit("🥱")
+    await alive.edit("__Mengakak__")
     await alive.edit("__King...Skyzo...__")
-    await alive.edit("🤾🏻__Orang__                              🛵")
-    await alive.edit("🏃🏻__Paling__                            🛵")
-    await alive.edit("🤾🏻__Tampanf__                          🛵")
-    await alive.edit("🏃🏻__Xixixixi__                        🛵")
-    await alive.edit("🤾🏻__Sistem__                         🛵")
-    await alive.edit("🏃🏻__Alive__                         🛵")
-    await alive.edit("🤾🏻__Sabar__                        🛵")
-    await alive.edit("🏃🏻__Bentar__                      🛵")
-    await alive.edit("🤾🏻__Tunggu Bangsat__             🛵")
-    await alive.edit("🏃🏻__Ga Sabaran__                🛵")
-    await alive.edit("🤾🏻__Kick__                     🛵")
-    await alive.edit("🏃🏻__Wkwkwkwk__                🛵")
-    await alive.edit("🤾🏻__Gabut__                  🛵")
-    await alive.edit("🏃🏻__Bangsat__               🛵")
-    await alive.edit("🤾🏻__Ingfo__                🛵")
-    await alive.edit("🏃🏻__Keluar__              🛵")
-    await alive.edit("🤾🏻__Cari__               🛵")
-    await alive.edit("🏃🏻__Cewe__              🛵")
-    await alive.edit("🤾🏻__Awokawokawok__     🛵")
-    await alive.edit("🏃🏻__Ganteng Dulu__    🛵")
-    await alive.edit("🤾🏻__Kek Gua__        🛵")
-    await alive.edit("🏃🏻__Asekkk Kwkwk__  🛵")
-    await alive.edit("🤾🏻__Skyzo Nih__    🛵")
-    await alive.edit("🏃🏻__Anjay__       🛵")
-    await alive.edit("🤾🏻__Siapa dulu?__🛵")
-    await alive.edit("🏃🏻__Skyzooo__      🛵")
-    await alive.edit("🤾🏻__Anjay Skyzo__    🛵")
-    await alive.edit("🏃🏻__Skyzo Flicks__      🛵")
-    await alive.edit("🤾🏻__Paling Ganteng__      🛵")
-    await alive.edit("🏃🏻__Yahahaha__              🪂")
+    await alive.edit("__Orang..__                              ")
+    await alive.edit("__Paling.....__                            ")
+    await alive.edit("__Tampan....__                          ")
+    await alive.edit("__Xixixixi....__                        ")
+    await alive.edit("__Sistem....__                         ")
+    await alive.edit("__Alive...__                         ")
+    await alive.edit("__Sabar.....__                        ")
+    await alive.edit("__Bentar....__                      ")
+    await alive.edit("__Tunggu Bangsat..__             ")
+    await alive.edit("__Ga Sabaran...__                ")
+    await alive.edit("__Kick...__                     ")
+    await alive.edit("__Wkwkwkwk...__                ")
+    await alive.edit("__Gabut Sayang...__                  ")
+    await alive.edit("__Bangsat....__               ")
+    await alive.edit("__Ingfo....__                ")
+    await alive.edit("__Keluar Tod.......__              ")
+    await alive.edit("__Cari....__               ")
+    await alive.edit("__Cewe....__              ")
+    await alive.edit("__Awokawokawok__     ")
+    await alive.edit("__Ganteng Dulu......__    ")
+    await alive.edit("__Kek Gua........__        ")
+    await alive.edit("__Asekkk Kwkwk.......__  ")
+    await alive.edit("__Skyzo Nih........__    ")
+    await alive.edit("__Anjay.........__       ")
+    await alive.edit("__Siapa dulu?.....__")
+    await alive.edit("__Skyzo Dong....__      ")
+    await alive.edit("__Anjay Skyzo.....__    ")
+    await alive.edit("__Skyzo Flicks....__      ")
+    await alive.edit("__Paling Ganteng.....__      ")
+    await alive.edit("__Yahahaha......__              ")
+    await alive.edit("__Tod Tod..__")
+    await alive.edit("__Ngentod......__")
+    await alive.edit("__Eaaaaaa.......__")
+    await alive.edit("__Userbot..__")
+    await alive.edit("__Punya...__")
+    await alive.edit("__Skyzo..__")
+    await alive.edit("__Yahahahahaha__")
+    await alive.edit("__King...Skyzo...__")
+    await alive.edit("__Udah Woi..__                              ")
+    await alive.edit("__Cape.....__                            ")
+    await alive.edit("__Anjir....__                          ")
+    await alive.edit("__Xixixixi....__
     await asyncio.sleep(3)
     await alive.edit("☃️")
     await asyncio.sleep(3)
@@ -358,18 +370,18 @@ async def redis(alive):
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🧸 **King     :**{DEFAULTUSER} \n"
+        f"╟◈ 🧸 **King            :**{DEFAULTUSER} \n"
         f"╟◈ ☃️ **Username :**@{user.username} \n"
-        f"╟◈ 📱 **Telethon :**v. {version.__version__} \n"
-        f"╟◈ 🐲 **Python   :**v. {python_version()} \n"
-        f"╟◈ 🚀 **Branch   :**{UPSTREAM_REPO_BRANCH} \n"
-        f"╟◈ 🦖 **Bot Ver  :**v. {BOT_VER} \n"
-        f"╟◈ 📂 **Plugins  :**{len(modules)} Plugins \n"
+        f"╟◈ 📱 **Telethon    :**v. {version.__version__} \n"
+        f"╟◈ 🐲 **Python       :**v. {python_version()} \n"
+        f"╟◈ 🚀 **Branch       :**{UPSTREAM_REPO_BRANCH} \n"
+        f"╟◈ 🦖 **Bot Ver      :**v. {BOT_VER} \n"
+        f"╟◈ 📂 **Plugins      :**{len(modules)} Plugins \n"
         f"┞╼════════════════════╾┤ \n"
         f"├◈ **Support Terus Repo Kami** \n"
         f"│    **Dengan Link Di Bawah Ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"[Repo Userbot](https://apisuserbot.github.io/King-Userbot) | [Grup Support](t.me/Mengvirtual_GC) | "
+        f"[Channel](https://t.me/gabutseger) | [Grup Support](t.me/Mengvirtual_GC) | "
         f"[Developer](t.me/SkyzoSaja)")
     if ALIVE_LOGO:
         try:
