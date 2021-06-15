@@ -112,11 +112,11 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**Memulai Test Sinyal**")
+    await pong.edit("**Memulai Test Sinyal Bot**")
     await pong.edit("**..Sans Bentar Lagi..**")
     await pong.edit("**Tod Tod Tod Ngen..**")
     await pong.edit("**Sabar Anjing**")
-    await pong.edit("**................**")
+    await pong.edit("**.......Anak Ngentod.......**")
     await pong.edit("🤪")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -159,7 +159,7 @@ async def pingme(pong):
     await pong.edit("__Test Ping__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"┏━━| **KING PONG** |━━卍\n"
+    await pong.edit(f"┏━━| **KENTOT PONG** |━━卍\n"
                     f"┣|•  __Ping:__ "
                     f"`%sms` \n"
                     f"┗|• __Uptime:__ "
@@ -184,7 +184,7 @@ async def pingme(pong):
 @register(outgoing=True, pattern="^.jaringan$")
 async def speedtst(spd):
     """ For .jaringan command, use SpeedTest to check server speeds. """
-    await spd.edit("`Mengecek Tes jaringan...🚀`")
+    await spd.edit("`Mengecek Tes Jaringan, Sabar Babi....🦖`")
     test = Speedtest()
 
     test.get_best_server()
@@ -193,7 +193,7 @@ async def speedtst(spd):
     test.results.share()
     result = test.results.dict()
 
-    await spd.edit("**Hasil jaringan:\n**"
+    await spd.edit("**Hasil jaringan bot:\n**"
                    "🛠 **Dimulai Pada:** "
                    f"`{result['timestamp']}` \n"
                    f" ━━━━━━━━━━━━━━━━━\n\n"
@@ -223,15 +223,15 @@ async def speedtst(spd):
     result = test.results.dict()
 
     msg = (
-        f"**📱Dimulai pada {result['timestamp']}**\n\n"
+        f"**📱Dimulai pada 🏆{result['timestamp']}**\n\n"
         "**📠Klien**\n"
         f"**🚀ISP :** `{result['client']['isp']}`\n"
-        f"**🇮🇩Negara :** `{result['client']['country']}`\n\n"
-        "**🥏Server**\n"
+        f"**🎈Negara :** `{result['client']['country']}`\n\n"
+        "**🏕️Server**\n"
         f"**🐲Nama :** `{result['server']['name']}`\n"
-        f"**🇮🇩Negara :** `{result['server']['country']}`\n"
+        f"**🎈Negara :** `{result['server']['country']}`\n"
         f"**🖥️Sponsor :** `{result['server']['sponsor']}`\n\n"
-        f"**🧸Ping :** `{result['ping']}`\n"
+        f"**🔰Ping :** `{result['ping']}`\n"
         f"**🖨️Upload :** `{humanbytes(result['upload'])}/s`\n"
         f"**📟Download :** `{humanbytes(result['download'])}/s`"
     )
@@ -273,18 +273,18 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("`Pong...........🏎`")
-    await pong.edit("`Pong..........🏎.`")
-    await pong.edit("`Pong.........🏎..`")
-    await pong.edit("`Pong........🏎...`")
-    await pong.edit("`Pong.......🏎....`")
-    await pong.edit("`Pong......🏎.....`")
-    await pong.edit("`Pong.....🏎......`")
-    await pong.edit("`Pong....🏎.......`")
-    await pong.edit("`Pong...🏎........`")
-    await pong.edit("`Pong..🏎.........`")
-    await pong.edit("`Pong.🏎..........`")
-    await pong.edit("`Pong🏎...........`")
+    await pong.edit("`Pong!...........🛺`")
+    await pong.edit("`Pong!..........🛺.`")
+    await pong.edit("`Pong!.........🛺..`")
+    await pong.edit("`Pong!........🛺...`")
+    await pong.edit("`Pong!.......🛺....`")
+    await pong.edit("`Pong!......🛺.....`")
+    await pong.edit("`Pong!.....🛺......`")
+    await pong.edit("`Pong!....🛺.......`")
+    await pong.edit("`Pong!...🛺........`")
+    await pong.edit("`Pong!..🛺.........`")
+    await pong.edit("`Pong!.🛺..........`")
+    await pong.edit("`Pong!🛺...........`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit("⎚⎆ __King__ **Test Ping!**\n`%sms`" % (duration))
