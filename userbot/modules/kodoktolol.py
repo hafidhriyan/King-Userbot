@@ -1,6 +1,6 @@
 # Yang Hapus Besok Mati Aminnn
 # Port By @Vckyouuu
-# Apis Ganteng , Yang Hapus Meninggal Besok Aminn...
+# Skyzo Ganteng , Yang Hapus Meninggal Besok Aminn...
 # Gabut Doang Gw Tod
 
 
@@ -15,7 +15,7 @@ async def honkasays(event):
     await event.edit("`Sedang Memprosess!!!`")
     text = event.pattern_match.group(1)
     if not text:
-        return await event.edit("`Beri Aku Bebeberapa Teks, Contoh .frog test`")
+        return await event.edit("`Beri Aku Bebeberapa Teks, Contoh .frog Kontol`")
     try:
         if not text.endswith("."):
             text = text + "."
@@ -42,9 +42,9 @@ async def honkasays(event):
             )
         await event.delete()
     except ChatSendInlineForbiddenError:
-        await event.edit("`King! Saya tidak bisa menggunakan hal-hal sebaris di sini...`")
+        await event.edit("`Tuan! Saya tidak bisa menggunakan hal-hal sebaris di sini...`")
     except ChatSendStickersForbiddenError:
-        await event.edit("Maaf King, saya tidak bisa mengirim stiker ke sini !!")
+        await event.edit("Maaf Tuan, saya tidak bisa mengirim stiker ke sini !!")
 
 
 CMD_HELP.update({"frog": "⚡𝘾𝙈𝘿⚡`.frog`\
