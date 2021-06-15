@@ -356,12 +356,12 @@ async def redis(alive):
     await alive.edit("__Skyzo..__")
     await alive.edit("__Yahahahahaha__")
     await alive.edit("__King...Skyzo...__")
-    await alive.edit("__Udah Woi..__                              ")
+    await alive.edit("__Udah Woi..__                            ")
     await alive.edit("__Cape.....__                            ")
     await alive.edit("__Anjir....__                          ")
-    await alive.edit("__Xixixixi....__
+    await alive.edit("__Xixixixi....__")
     await asyncio.sleep(3)
-    await alive.edit("☃️")
+    await alive.edit("🤪")
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
