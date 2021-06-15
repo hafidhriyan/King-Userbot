@@ -14,7 +14,7 @@ auth_url = r["auth_url"]
 
 @register(outgoing=True, pattern=r"^\.tg (m|t)$")
 async def telegraphs(graph):
-    await graph.edit("`𝙎𝙚𝙙𝙖𝙣𝙜 𝙈𝙚𝙢𝙥𝙚𝙧𝙤𝙨𝙚𝙨...⚡️`")
+    await graph.edit("__Sedang Proses, Tunggu Tolol....🖕__")
     if not graph.text[0].isalpha() and graph.text[0] not in (
             "/", "#", "@", "!"):
         if graph.fwd_from:
