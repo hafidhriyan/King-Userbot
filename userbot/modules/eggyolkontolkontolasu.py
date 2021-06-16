@@ -13,7 +13,7 @@ async def typewriter(typew):
     sleep(0.05)
     await typew.edit("**Sekuat Apapun Aku😭**")
     sleep(0.05)
-    await typew.edit("**Jika Ada Eggyol😨**")
+    await typew.edit("**Jika Ada Eggyol Kontol**")
     sleep(0.05)
     await typew.edit("**Aku Harus Lari🏃🏻**")
     sleep(0.05)
@@ -43,9 +43,9 @@ async def typewriter(typew):
     sleep(0.05)
     await typew.edit("**Mengulanginya Lagi🏃🏻**")
     sleep(0.05)
-    await typew.edit("**Tapi Bo'ong🤾🏻**")
+    await typew.edit("**Tapi Bo'ong Yahahaha Eggyol Babi🤾🏻**")
     sleep(0.05)
-    await typew.edit("**Dasar Eggyol, Sangean🪂**")
+    await typew.edit("**Dasar Eggyol, Sangean Asw🪂**")
     
 
 CMD_HELP.update(
