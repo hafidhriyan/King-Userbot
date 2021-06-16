@@ -359,13 +359,13 @@ async def redis(alive):
     await alive.edit("__Udah Woi..__                            ")
     await alive.edit("__Cape.....__                            ")
     await alive.edit("__Anjir....__                          ")
-    await alive.edit("__Xixixixi....__")
+    await alive.edit("__Im Skyzo, This Is Bot Of Skyzoツ....__")
     await asyncio.sleep(3)
     await alive.edit("🤪")
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f" ㅤ**★ ☃️KING-FORK-USERBOT☃️ ★** \n"
+        f" ㅤ**★ 🐲KING-FORK-USERBOT🐲 ★** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
