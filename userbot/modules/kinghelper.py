@@ -11,12 +11,12 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^.khelp$")
 async def usit(e):
     await e.edit(
-        f"      ╔════════════╗\n     ⚡️𝘽𝘼𝙉𝙏𝙐𝘼𝙉⚡️     \n╚════════════╝ \n"
+        f"      ╔════════════╗\n     ⚡️Skyzo⚡️     \n╚════════════╝ \n"
         f"**Hai King {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "═⎆ Pemilik : [King Apis](t.me/PacarFerdilla) \n"
-        "═⎆ Repo    : [Repo](https://github.com/apisuserbot/King-Userbot) \n"
-        "═⎆ Instragam : [Instagram King Apis](Instagram.com/apis_goodboy) \n"
-        "═⎆ Grup Support : [King Userbot Support](https://t.me/KingUserbotSupport)")
+        "═⎆ Repo    : [Repo](https://github.com/ridho17-ind/King-Userbot) \n"
+        "═⎆ Instragam : [Instagram King Flicks](Instagram.com/xyzskyzo) \n"
+        "═⎆ Grup Support : [Support](https://t.me/mengvirtual_gc)")
 
 
 @register(outgoing=True, pattern="^.vars$")
