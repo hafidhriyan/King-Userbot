@@ -5,6 +5,29 @@ from userbot import ALIVE_NAME, CMD_HELP
 from userbot.events import register
 
 
+@register(outgoing=True, pattern='^.wibuu(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`Kata Emak`")
+    sleep(2)
+    await typew.edit("`Kalo Ketemu Wibuu`")
+    sleep(3)
+    await typew.edit("`Harus Lari Sekenceng Mungkin🏃🏻`")
+    sleep(3)
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻          🏂`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨        🏂`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨        🏂ㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤ    🏂   `")
+    await typew.edit("`ㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤ        🏂ㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤ🏃🏻💨  sini lu ajg   🏂ㅤ`")
+    await typew.edit("`ㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ       🏂`")
+    await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ       🏂ㅤ`")
+    await typew.edit("`ㅤ🏃🏻💨ㅤㅤwibuㅤ      🏂ㅤㅤㅤㅤ`")
+    await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤ    🏂ㅤㅤ`")
+# create by skyzo
+
+
 @register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -100,7 +123,7 @@ async def typewriter(typew):
     await typew.edit("`🏃    🏂`")
     await typew.edit("**Untung Ngga Kena Njir**")
     sleep(1)
-    await typew.edit("🎯")
+    await typew.edit("😟")
     sleep(2)
     await typew.edit("**Kasian Si Wibu Wokwokwok**")
     
