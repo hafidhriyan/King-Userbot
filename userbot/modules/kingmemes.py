@@ -35,16 +35,16 @@ async def _(event):
 
         animation_chars = [
 
-            "👁👁\n  👄  =====> Woi, Lu Anak Anjing🤭",
-            "👁👁\n  👅  =====> Udah Tolol Goblok Lagi🤣",
-            "👁👁\n  💋  =====> Kek Kontol Ah Anjing😁",
-            "👁👁\n  👄  =====> Huhhhhh Babi😂",
-            "👁👁\n  👅  =====> Dahlah Males Ngomong Ama😭",
-            "👁👁\n  💋  =====> Anak Anjing😐",
-            "👁👁\n  👄  =====> Ga Guna Babi Babi😙",
-            "👁👁\n  👅  =====> Wkwkwkwkwk Tolol🥴",
-            "👁👁\n  💋  =====> Byeee Anak Pungut🥱",
-            "👁👁\n  👄  =====> Jan Ngelunjak Lu Ya Nak Pungut🥺",
+            "👁👁\n  👄  __=====> Woi, Lu Anak Anjing__🤭",
+            "👁👁\n  👅  __=====> Udah Tolol Goblok Lagi__🤣",
+            "👁👁\n  💋  __=====> Kek Kontol Ah Anjing__😁",
+            "👁👁\n  👄  __=====> Huhhhhh Babi Ngentod__😂",
+            "👁👁\n  👅  __=====> Dahlah Males Ngomong Ama Lu😭__",
+            "👁👁\n  💋  __=====> Dasar Anak Anjing😐__",
+            "👁👁\n  👄  __=====> Ga Guna Babi Babi😙_&",
+            "👁👁\n  👅  __=====> Wkwkwkwkwk Tolol__🥴",
+            "👁👁\n  💋  __=====> Byeee Anak Pungut🥱__",
+            "👁👁\n  👄  __=====> Jan Ngelunjak Lu Ya Nak Pungut🥺__",
         ]
 
         for i in animation_ttl:
@@ -130,7 +130,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "Cek Hadiahmu [🎁](https://t.me/Mengvirtual_Gc"]
+            "[🎁](https://t.me/Mengvirtual_Gc")
 
         for i in animation_ttl:
 
@@ -548,7 +548,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🟡👈](https://t.me/Mengvirtual_GC)"]
+            "[👉🔴👈](https://t.me/Mengvirtual_GC)"]
 
         for i in animation_ttl:
 
@@ -1162,7 +1162,7 @@ async def _(event):
             "¿H$NK∆NG",
             "¶H×NK&N*",
             "NGITHKIN",
-            "T+I#K@₹G",
+            "T+I#K@₹G", 
             "THINKING",
             "THI&K#N₹",
             "T+IN@I?G",
