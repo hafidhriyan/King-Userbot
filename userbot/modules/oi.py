@@ -2,19 +2,19 @@ from time import sleep
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.apis(?: |$)(.*)')
+@register(outgoing=True, pattern='^.skyzo(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Apis`")
+    await typew.edit("`Hai Perkenalkan Namaku Skyzo`")
     sleep(3)
     await typew.edit("`14 Tahun`")
     sleep(1)
-    await typew.edit("`Tinggal Di Jakarta, Salam Kenal:)`")
+    await typew.edit("`Tinggal Di Jawa, Salam Kenal:)`")
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.sayang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.beb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
@@ -42,9 +42,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Apis Mastah`")
+    await typew.edit("`Skyzo Mastah`")
     sleep(3)
-    await typew.edit("`Abdul Manager`")
+    await typew.edit("`Berlin Manager`")
     sleep(1)
-    await typew.edit("`Rimuru Contributor`")
+    await typew.edit("`Iky Contributor`")
 # Create by myself @localheart
