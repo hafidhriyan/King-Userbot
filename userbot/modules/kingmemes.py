@@ -130,7 +130,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "[🎁](https://t.me/Mengvirtual_Gc")
+            "[🎁](https://t.me/Mengvirtual_Gc"]
 
         for i in animation_ttl:
 
