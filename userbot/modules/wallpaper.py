@@ -54,7 +54,7 @@ async def _(event):
         await event.delete()
         os.system("rm *.png *.jpg")
     except TimeoutError:
-        return await event.edit("`Saya Tidak Menemukan Wallpaper Yang Anda Cari`")
+        return await event.edit("`Saya Tidak Menemukan Wallpaper Yang Anda Cari Kawand`")
 
 
 CMD_HELP.update({"wallpaper": ">⚡𝘾𝙈𝘿⚡`.wall <query>`"
