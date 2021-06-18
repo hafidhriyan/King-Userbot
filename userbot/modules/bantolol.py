@@ -33,7 +33,7 @@ CMD_HELP.update(
         "xban": "**✘ Plugin : **`xban`\
         \n\n  •  **Perintah : **`.xban`\
         \n  •  **Function : **Ban semua member dalam satu perintah\
-        \n\n  **Peringatan :** __**Hati hati dalam penggunaan perintah , karena dalam sekejap perintah ini aktif semua member anda akan terbannned😨!**__\
+        \n\n  **Peringatan :** __**Hati hati dalam penggunaan perintah , karena dalam sekejap perintah ini aktif semua member anda akan terbannned njirrrr😨!**__\
     "
     }
 )
