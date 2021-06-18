@@ -27,6 +27,16 @@ async def typewriter(typew):
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤ    🏂ㅤㅤ`")
 # create by skyzo
 
+    await pong.edit("__Loading Kegantengan Skyzo😎.....__")
+    await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
+    await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
+    await pong.edit("**40% ████▒▒▒▒▒▒**")
+    await pong.edit("**60% ██████▒▒▒▒**")
+    await pong.edit("**80% ████████▒▒**")
+    await pong.edit("**100% ██████████**")
+    sleep(2)
+    await typew.edit("**Skyzo Ganteng 1000%😎**")
+
 
 @register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
 async def typewriter(typew):
@@ -130,7 +140,7 @@ async def typewriter(typew):
 
 CMD_HELP.update(
     {
-        "king": "**✘ Plugin :** `wibu`\
+        "random": "**✘ Plugin :** `wibu`\
         \n\n  •  **Perintah :** `.wibu`\
         \n  •  **Function : **Untuk melihat sesuatu yang menarik\
         \n  •  **Function : **Lari Cuk Ada Wibuuu Arghhhh**\
