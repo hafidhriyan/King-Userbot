@@ -45,4 +45,4 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**Tapi Bo'ong🤾🏻**")
     sleep(1)
-    await typew.edit("**Dasar Anak Epep, Hobby Ngatain Tapi Di Katain Balik Koar-Koar🤣**")
+    await typew.edit("**Dasar Anak Epep, Hobby Ngatain Tapi Di Katain Balik Koar-Koar🤣😂**")
