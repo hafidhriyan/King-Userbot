@@ -30,7 +30,7 @@ from userbot import CMD_HELP
 
 @register(outgoing=True, pattern=r"^\.song (.*)")
 async def download_video(event):
-    await event.edit("`Mencari.....`")
+    await event.edit("`Mencari, Sabae Ya Tolol.....`")
     url = event.pattern_match.group(1)
     if not url:
         return await event.edit("**Kesalahan!**\nGunakan Perintah `.song <judul lagu>`")
@@ -41,7 +41,7 @@ async def download_video(event):
     try:
         url = q[0]["link"]
     except BaseException:
-        return await event.edit("`Tidak dapat menemukan lagu yang cocok...`")
+        return await event.edit("`Tidak dapat menemukan lagu yang cocok dan pas njing...`")
     type = "audio"
     await event.edit(f"`Bersiap untuk mengunduh {url}...`")
     if type == "audio":
