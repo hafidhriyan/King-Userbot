@@ -292,23 +292,23 @@ CMD_HELP.update({
 CMD_HELP.update({
     "salam2":
     "V\
-\nUsage: Hujat Orang caper.\
+\nUsage: 💠Hujat Orang caper.\
 \n\nJ\
-\nUsage: Hujat Jamet.\
+\nUsage: 💠Hujat Jamet.\
 \n\nA\
-\nUsage: Hujat yang gapunya muka.\
+\nUsage: 💠Hujat yang gapunya muka.\
 \n\nX\
-\nUsage: Ngatain Grup wkwk.\
+\nUsage: 💠Ngatain Grup wkwk.\
 \n\nZ\
-\nUsage: teruntuk petarung.\
+\nUsage: 💠teruntuk petarung.\
 \n\nH\
-\nUsage: Coba dewek ah.\
+\nUsage: 💠Coba dewek ah.\
 \n\n.atg\
-\nUsage: Istighfar 1.\
+\nUsage: 💠Istighfar 1.\
 \n\n.ast\
-\nUsage: Istighfar 2.\
+\nUsage: 💠Istighfar 2.\
 \n\nO\
-\nUsage: Ngatain org norak.\
+\nUsage: 💠Ngatain org norak.\
 \n\nG\
-\nUsage: Liat Sendiri."
+\nUsage: 💠Liat Sendiri."
 })
