@@ -204,7 +204,7 @@ async def anime(event):
     elif reply:
         query = reply.text
     else:
-        await event.edit("`Bruh.. What I am supposed to search ?`")
+        await event.edit("`Bruh.... Lu Wibu Kan? Kasih Gw Judul Animenya`")
         await asyncio.sleep(6)
         await event.delete()
         return
@@ -275,7 +275,7 @@ async def manga(event):
     query = event.pattern_match.group(1)
     await event.edit("`Searching Manga...`")
     if not query:
-        await event.edit("`Bruh.. Gib me Something to Search`")
+        await event.edit("`Woi Wibu... Kasih Gw Judul Animenya Njing!`")
         return
     res = ""
     manga = ""
