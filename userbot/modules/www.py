@@ -61,9 +61,9 @@ async def pingme(pong):
     await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"〠 __Test__ **PING** __|━|⎆__ ヅ "
+    await pong.edit(f"💠 __Test__ **PING** __|━|⎆__ ヅ "
                     f"\n  ☞ `%sms` \n"
-                    f"〠 __My__ **KING** __|━|⎆__ ヅ "
+                    f"💠 __My__ **KING** __|━|⎆__ ヅ "
                     f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -73,7 +73,11 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("☃️")
-    await pong.edit("__**...💠SKYZO💠...**__")
+    await pong.edit("__**.....NAMA.....**__")
+    await pong.edit("__**...GUA...**__")
+    await pong.edit("__**...SKYZO...**__")
+    await pong.edit("__**.....ORANG.....**__")
+    await pong.edit("__**...PALING...**__")
     await pong.edit("__**.....GANSS.....**__")
     await pong.edit("__**......SABAR BABI......**__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
@@ -120,10 +124,10 @@ async def pingme(pong):
     await pong.edit("🤪")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"卍════🐲 **TEST PING** 🐲════卍\n"
+    await pong.edit(f"卍════💠 **TEST PING** 💠════卍\n"
                     f"═⎆ **🤖Ping Bot:** "
                     f"`%sms` \n"
-                    f"═⎆ **☃️Sisa Waktu:** "
+                    f"═⎆ **🎳Sisa Waktu:** "
                     f"`{uptime}` \n"
                     f"**✠➲ 🧸MyKing:** `{ALIVE_NAME}`" % (duration))
 
@@ -133,7 +137,7 @@ async def pingme(pong):
     """ For .sinyal command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`Mengecek Sinyal Babi...`")
+    await pong.edit("`Mengecek Sinyal Lu Sabar Babi...`")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
     await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
     await pong.edit("**40% ████▒▒▒▒▒▒**")
@@ -156,10 +160,11 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("__Eaaaa__")
+    await pong.edit("__Skyzo Nih Boss__")
     await pong.edit("__Test Ping__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"┏━━| **KENTOT PONG** |━━卍\n"
+    await pong.edit(f"┏━━| **KENTOT PING** |━━卍\n"
                     f"┣|•  __Ping:__ "
                     f"`%sms` \n"
                     f"┗|• __Uptime:__ "
@@ -287,21 +292,21 @@ async def pingme(pong):
     await pong.edit("`Pong!🛺...........`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("⎚⎆ __King__ **Test Ping!**\n`%sms`" % (duration))
+    await pong.edit("⎚⎆ __Lord__ **Test Ping!**\n`%sms`" % (duration))
 
 CMD_HELP.update(
     {
-        "ping": "**✘ Plugin : **`ping`\
-        \n\n  •  **Perintah :** `.ping` | `kping` | `.xping` | `.sinyal` | `.uping`\
-        \n  •  **Function :** Untuk menunjukkan ping userbot.\
-        \n\n  •  **Perintah :** `.pong`\
-        \n  •  **Function :** Sama seperti perintah ping\
-        \n\n  •  **Perintah :** `.jaringan`\
-        \n  •  **Function :** Untuk Mengetes jaringan userbot.\
-        \n\n  •  **Perintah :** `.speedtest` | `.dc`\
-        \n  •  **Function :** Untuk Mengetes Server Userbot\
-        \n\n  •  **Perintah :** `!ping`\
-        \n  •  **Function : **Pingnya hampir sama dengan ultroid namun ini versi king!\
+        "ping": "**🐲 Plugin : **`ping`\
+        \n\n  •  **💠Perintah :** `.ping` | `kping` | `.xping` | `.sinyal` | `.uping`\
+        \n  •  **🎯Function :** Untuk menunjukkan ping userbot.\
+        \n\n  •  **💠Perintah :** `.pong`\
+        \n  •  **🎯Function :** Sama seperti perintah ping\
+        \n\n  •  **💠Perintah :** `.jaringan`\
+        \n  •  **🎯Function :** Untuk Mengetes jaringan userbot.\
+        \n\n  •  **💠Perintah :** `.speedtest` | `.dc`\
+        \n  •  **🎯Function :** Untuk Mengetes Server Userbot\
+        \n\n  •  **💠Perintah :** `!ping`\
+        \n  •  **🎯Function : **Pingnya hampir sama dengan ultroid namun ini versi king!\
     "
     }
 )
