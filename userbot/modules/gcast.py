@@ -14,7 +14,7 @@ async def gcast(event):
         return await event.edit("`King, Mohon Berikan Sebuah Pesan`")
     tt = event.text
     msg = tt[6:]
-    kingget = await event.edit("`Sedang Mengirim Pesan Secara Global...⚡️`")
+    kingget = await event.edit("`Sedang Mengirim Pesan Ke Grup Yang Lu Gabung Njing Males Gw..⚡️`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -25,7 +25,7 @@ async def gcast(event):
                 await bot.send_message(chat, msg)
             except BaseException:
                 er += 1
-    await kingget.edit(f"**Sukses Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
+    await kingget.edit(f"**Sukses Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup, Wkwkwk Mampus Gagal**")
 
 
 @register(outgoing=True, pattern="^.gucast (.*)")
@@ -35,7 +35,7 @@ async def gucast(event):
         return await event.edit("`Mohon Berikan Sebuah Pesan`")
     tt = event.text
     msg = tt[7:]
-    kingget = await event.edit("`Sedang Mengirim Pivate Messages Secara Global...⚡️`")
+    kingget = await event.edit("`Sedang Mengirim Pivate Messages Secara Global, Sabar Dulu Ya Kentot...`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
