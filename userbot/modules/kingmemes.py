@@ -130,7 +130,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "[🎁](https://t.me/Mengvirtual_Gc"]
+            "[🎁](https://t.me/virtual_Gc"]
 
         for i in animation_ttl:
 
@@ -548,7 +548,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🔴👈](https://t.me/Mengvirtual_GC)"]
+            "[👉🔴👈](https://t.me/virtual_GC)"]
 
         for i in animation_ttl:
 
@@ -984,7 +984,7 @@ async def _(event):
 
         animation_chars = [
 
-            "**King Mengaktifkan Kekuatan Menjadi Admin...⚡**",
+            "**Skyzo Mengaktifkan Kekuatan Menjadi Admin...😏🖕**",
             "**Kekuatan Menjadi Admin Telah Aktif...**",
             "**(1) Send Messages: ☑️**",
             "**(1) Send Messages: ✅**",
