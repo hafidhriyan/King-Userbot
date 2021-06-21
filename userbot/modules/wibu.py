@@ -162,15 +162,15 @@ async def typewriter(typew):
 
 CMD_HELP.update(
     {
-        "menggabut": "**✘Plugin :** `Banyak`\
+        "menggabut": "**✘Plugin :** ` Ga Banyak Sih`\
         \n\n  •  **🐲Perintah :** `.wibuu`\
-        \n  •  **💠Function : **Menghina Wibu Xixixi\
+        \n  •  **💠Function : **__Menghina Wibu Xixixi__\
         \n\n  •  **🐲Perintah : ** `.wibu`\
-        \n  •  **💠Function : **Ngatain Wibu Sampe Kena Mental\
-        \n\n  •  **P🐲erintah :** `.wibbu`\
-        \n  •  **💠Function : **Lari Ada Wibu Global\
-        \n\n  •  **🐲Perintah :** `.gtg`\
-        \n  •  **💠Function : **Mengjadi Anak Ganteng Dengan Sekali Click\
+        \n  •  **💠Function : **__Wibu Kena Mental__\
+        \n\n  •  **🐲Perintah :** `.wibbu`\
+        \n  •  **💠Function : **__Lari Ada Wibu Global__\
+        \n\n  •  **🐲Perintah :** `.geez`\
+        \n  •  **💠Function : **__Mengjadi Ganteng__\
     "
     }
 )
