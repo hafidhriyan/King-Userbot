@@ -26,7 +26,7 @@ async def help(event):
         if args in CMD_HELP:
             await event.edit(str(CMD_HELP[args]))
         else:
-            await event.edit(f"**Plugin Gak Valid Goblok**\n**Woi** {DEFAULTUSER} **Sepertinya Gak Ada Plugin Itu Masukin Yang Bener Babi**")
+            await event.edit(f"**Plugin Gak Valid Blok Goblok**\n**Woi** {DEFAULTUSER} **Gak Ada Plugin Itu Masukin Yang Bener Lah Babi**")
             await asyncio.sleep(200)
             await event.delete()
     else:
@@ -34,8 +34,8 @@ async def help(event):
         for i in CMD_HELP:
             string += "`" + str(i)
             string += "`\t|  "
-        await event.edit("**SKYZO-USERBOT**\n\n"
-                         f"**◑» King** {DEFAULTUSER}\n**◑» Plugins :** `{len(modules)}`\n\n"
+        await event.edit("**FLICKS-USERBOT**\n\n"
+                         f"**◑» Lord** {DEFAULTUSER}\n**◑» Plugins :** `{len(modules)}`\n\n"
                          "**❒ Main Menu ↯**\n"
                          f"╰►| {string} ◄─\n\n")
         await event.reply(f"\n**◑» Perintah Plugin**\n\n**Contoh** : **Ketik** `.help afk` **Untuk Informasi Pengunaan.\nAtau Bisa Juga Ketik** `.helpme` **Untuk Main Menu Yang Lain-Nya.**")
