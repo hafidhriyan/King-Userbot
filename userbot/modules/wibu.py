@@ -142,25 +142,10 @@ async def typewriter(typew):
     await typew.edit("**Kasian Si Wibu Wokwokwok**")
 
 
-@bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
-async def _(event):
-
-    if event.fwd_from:
-
-        return
-
-    animation_interval = 1
-
-    animation_ttl = range(0, 20)
-
-    input_str = event.pattern_match.group(1)
-
-    if input_str == "gtg":
-
-        await event.edit(input_str)
-
-        animation_chars = [
-
+@register(outgoing=True, pattern='^.gtg(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+            sleep(1)
             "**Skyzo Mengaktifkan Kekuatan Menjadi Ganteng..😏🖕**",
             "**Kekuatan Menjadi Anak Ganteng Telah Aktif...**",
             "**(1) Rajin Sholat ☑️**",
