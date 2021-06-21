@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡.`'
+                ' untuk dapat deploy perubahan terbaru dari Flicks-Userbot.`'
             )
             repo.__del__()
             return
@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nDyno ☃️King-Fork-Userbot☃️ Sedang Dalam Proses, Mohon Menunggu 7-8 Menit Ya Babi`'
+                         '\nDyno 🐲Flicks-Userbot🐲 Sedang Dalam Proses, Mohon Menunggu 7-8 Menit Ya Babi`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`📮King-Fork-Userbot📮 Sukses Di Deploy!`\n" "`Memulai Ulang, Mohon Menunggu Babi.....🚀`")
+            await event.edit("`📮Flicks-Userbot📮 Sukses Di Deploy!`\n" "`Memulai Ulang, Mohon Menunggu Babi.....🚀`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -115,11 +115,11 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('⚡King-Fork-Userbot⚡ `Sukses Di Update!`')
+    await event.edit('⚡Flicka-Userbot⚡ `Sukses Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('⚡King-Fork-Userbot⚡ `Di Mulai Ulang....`')
+    await event.edit('⚡Flicks-Userbot⚡ `Di Mulai Ulang....`')
     await asyncio.sleep(1)
-    await event.edit('`Mohon Menunggu Beberapa Detik King`')
+    await event.edit('`Mohon Menunggu Beberapa Detik Tuan`')
     await asyncio.sleep(10)
     await event.delete()
 
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n__🧸King-Fork-Userbot🧸__ **Sudah Versi Terbaru Jan Di Update Mulu Babi**\n')
+            f'\n__Flicks-Userbot__ **Sudah Versi Terbaru, Owner Lagi Males Update Maybe:'/**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**✣ Pembaruan Untuk** __King-Fork-Userbot__ [{ac_br}]:\n\n**⎆ Pembaruan :**\n`{changelog}`'
+        changelog_str = f'**✣ Pembaruan Untuk** __Flicks-Userbot__ [main]:\n\n**⎆ Pembaruan :**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -214,8 +214,8 @@ async def upstream(event):
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('`⎆ Proses Update 😭King⚡, Loading....1%`')
-        await event.edit('`⎆ Proses Update 🤪Fork⚡, Loading....20%`')
+        await event.edit('`⎆ Proses Update 😭Flicks⚡, Loading....1%`')
+        await event.edit('`⎆ Proses Update 🤪Gans⚡, Loading....20%`')
         await event.edit('`⎆ Proses Update 🥴Userbot⚡, Loading....35%`')
         await event.edit('`⎆ Proses Update 😎Sedang⚡, Loading....77%`')
         await event.edit('`⎆ Proses Update 😁Di Update⚡, Updating...90%`')
@@ -235,11 +235,11 @@ CMD_HELP.update(
     {
         "update": "**✘ Plugin : **`update`\
         \n\n  •  **Perintah :** `.update`\
-        \n  •  **Function : **Untuk Melihat Pembaruan Terbaru ⚡King-Fork-Userbot⚡.\
+        \n  •  **Function : **Untuk Melihat Pembaruan Terbaru ⚡Flicks-Userbot⚡.\
         \n\n  •  **Perintah :** `.update now`\
-        \n  •  **Function : **Memperbarui 🧸King-Fork-Userbot🧸.\
+        \n  •  **Function : **Memperbarui 🧸Flicks-Userbot🧸.\
         \n\n  •  **Perintah :** `.update deploy`\
-        \n  •  **Function : **Memperbarui King-Fork-Userbot Dengan Cara Deploy Ulang.\
+        \n  •  **Function : **Memperbarui Flicks-Userbot Dengan Cara Deploy Ulang.\
     "
     }
 )
