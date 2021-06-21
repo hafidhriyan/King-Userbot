@@ -136,6 +136,49 @@ async def typewriter(typew):
     await typew.edit("😟")
     sleep(2)
     await typew.edit("**Kasian Si Wibu Wokwokwok**")
+
+
+@bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+async def _(event):
+
+    if event.fwd_from:
+
+        return
+
+    animation_interval = 1
+
+    animation_ttl = range(0, 20)
+
+    input_str = event.pattern_match.group(1)
+
+    if input_str == "gtg":
+
+        await event.edit(input_str)
+
+        animation_chars = [
+
+            "**Skyzo Mengaktifkan Kekuatan Menjadi Ganteng..😏🖕**",
+            "**Kekuatan Menjadi Anak Ganteng Telah Aktif...**",
+            "**(1) Rajin Sholat ☑️**",
+            "**(1) Rajin Sholat ✅**",
+            "**(2) Sering Mandi ☑️**",
+            "**(2) Sering Mandi ✅**",
+            "**(3) No Caper Ke Cewe ☑️**",
+            "**(3) No Caper Ke Cewe ✅**",
+            "**(4) Gak Alay ☑️**",
+            "**(4) Gak Alay ✅**",
+            "**(5) Suka Menolong ☑️**",
+            "**(5) Suka Menolong ✅**",
+            "**(6) Gak Sangean ☑️**",
+            "**(6) Gak Sangean ✅**",
+            "**(7) Harus Sangean ☑️**",
+            "**(7) Harus Sangean ✅**",
+            "**(8) Pinter Di Sekolah ☑️**",
+            "**(8) Pinter Di Sekolah ✅**",
+            "**Sukses Menjadi Ganteng**",
+            "**Iya Ganteng, Seperti Skyzo :v**"
+
+        ]
     
 
 CMD_HELP.update(
