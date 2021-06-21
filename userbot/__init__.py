@@ -328,7 +328,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**🐲Flicks-Userbot🐲** __Telah Aktif Bangsat, Pake Yang Bener Ya Anjing, Btw Gw Males Update Bot😭__")
+    await bot.send_message(BOTLOG_CHATID, "**🐲Flicks-Userbot🐲** __Telah Aktif Bangsat, Pake Yang Bener Ya Anjing, Btw Gw Males Update Bot😭, Jadi Sabar Aja Dulu🤡__")
     return
 
 with bot:
