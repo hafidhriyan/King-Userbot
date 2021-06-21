@@ -115,7 +115,7 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('⚡Flicka-Userbot⚡ `Sukses Di Update!`')
+    await event.edit('⚡Flicks-Userbot⚡ `Sukses Di Update!`')
     await asyncio.sleep(1)
     await event.edit('⚡Flicks-Userbot⚡ `Di Mulai Ulang....`')
     await asyncio.sleep(1)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#PERBARUI \n"
-            "**King-Userbot Telah Di Perbarui**")
+            "**Flicks-Userbot Telah Di Perbarui**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**✣ Pembaruan Untuk** __Flicks-Userbot__ [main]:\n\n**⎆ Pembaruan :**\n`{changelog}`'
+        changelog_str = f'**✣ Pembaruan Untuk** __Flicks-Userbot__ **[main]**:\n\n**⎆ Pembaruan :**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update** __King-Fork-Userbot__\n•  ** Perintah ** `.update now`\n•  ** Perintah ** `.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari King-Fork-Userbot.__')
+        return await event.respond('**Perintah Untuk Update** __Flicks-Userbot__\n•  ** Perintah ** `.update now`\n•  ** Perintah ** `.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari King-Fork-Userbot.__')
 
     if force_update:
         await event.edit(
