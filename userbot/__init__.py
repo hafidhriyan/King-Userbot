@@ -328,7 +328,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**🐲Flicks-Userbot🐲** __Telah Aktif Bangsat, Pake Yang Bener Ya Anjing, Dan Jangan Lupa, Tetaplah Bernapas__")
+    await bot.send_message(BOTLOG_CHATID, "**🐲Flicks-Userbot🐲** __Telah Aktif Bangsat, Pake Yang Bener Ya Anjing, Btw Gw Males Update Bot😭__")
     return
 
 with bot:
@@ -364,7 +364,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} 💠".format("💠", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} ♻️".format("♻️", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -408,7 +408,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⚡Flicks-Userbot⚡, Buat Userbot Mu Sendiri Dengan cara [Tekan Disini](https://github.com/ridho17-ind/King-Userbot.git)")
+                await event.reply("🐲Flicks-Userbot🐲, __Buat Userbot Mu Sendiri Dengan cara__ [Tekan Disini](https://github.com/ridho17-ind/King-Userbot.git)")
             else:
                 await event.reply(f"`👋🏻 Hai King {ALIVE_NAME}\n\nApa Kabarmu? ^_^`")
 
@@ -437,7 +437,7 @@ with bot:
                     buttons=[
                         [
                             custom.Button.url(
-                                "King-Userbot",
+                                "Flicks-Userbot",
                                 "https://github.com/ridho17-ind/King-Userbot"),
                             custom.Button.url(
                                 "Developer",
