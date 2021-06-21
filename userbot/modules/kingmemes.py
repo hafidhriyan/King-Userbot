@@ -130,7 +130,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "[🎁](https://t.me/virtual_Gc"]
+            "[🎁](https://t.me/sadroomchat"]
 
         for i in animation_ttl:
 
@@ -548,7 +548,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🔴👈](https://t.me/virtual_GC)"]
+            "[👉🔴👈](https://t.me/sadroomchat)"]
 
         for i in animation_ttl:
 
@@ -1004,6 +1004,48 @@ async def _(event):
             "**(8) Change Chat Info: ✅**",
             "**Sukses Menjadi Admin **",
             "**Sukses ketipu Maksudnya :v**"
+
+        ]
+
+@bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+async def _(event):
+
+    if event.fwd_from:
+
+        return
+
+    animation_interval = 1
+
+    animation_ttl = range(0, 20)
+
+    input_str = event.pattern_match.group(1)
+
+    if input_str == "gtg":
+
+        await event.edit(input_str)
+
+        animation_chars = [
+
+            "**Skyzo Mengaktifkan Kekuatan Menjadi Ganteng..😏🖕**",
+            "**Kekuatan Menjadi Ganteng Telah Aktif...**",
+            "**(1) Rajin Sholat ☑️**",
+            "**(1) Rajin Sholat ✅**",
+            "**(2) Gak Sangean ☑️**",
+            "**(2) Gak Sangean ✅**",
+            "**(3) Harus Sangean ☑️**",
+            "**(3) Harus Sangean ✅**",
+            "**(4) Gak Wibu:v ☑️**",
+            "**(4) Gak Wibu:v ✅**",
+            "**(5) Suka Membantu ☑️**",
+            "**(5) Suka Membantu ✅**",
+            "**(6) Gak Nakal ☑️**",
+            "**(6) Gak Nakal ✅**",
+            "**(7) Gak Caper Depan Cewe ☑️**",
+            "**(7) Gak Caper Depan Cewe ✅**",
+            "**(8) Gak Alay Njing ☑️**",
+            "**(8) Gak Alay Njing ✅**",
+            "**Sukses Menjadi Anak Ganteng **",
+            "**Ganteng, Seperti Skyzo:v**"
 
         ]
 
@@ -3002,7 +3044,7 @@ CMD_HELP.update({
 \nUsage: Memulai Percakapan\
 \n\n⚡𝘾𝙈𝘿⚡`.wtf`\
 \nUsage: Lihat Sendiri\
-\n\n⚡𝘾𝙈𝘿⚡`.load`,⚡𝘾𝙈𝘿⚡`.up`,⚡𝘾𝙈𝘿⚡`.square`,⚡𝘾𝙈𝘿⚡`.round`,⚡𝘾𝙈𝘿⚡`.heart`,⚡𝘾𝙈𝘿⚡`.monkey`,⚡𝘾𝙈𝘿⚡`.anim`,⚡𝘾𝙈𝘿⚡`.hand`,⚡𝘾𝙈𝘿⚡`.fnl`,⚡𝘾𝙈𝘿⚡`.cnt`,⚡𝘾𝙈𝘿⚡`.kiss`\
+\n\n⚡𝘾𝙈𝘿⚡`.load`,⚡𝘾𝙈𝘿⚡`.up`,⚡𝘾𝙈𝘿⚡`.gtg`,⚡𝘾𝙈𝘿⚡`.square`,⚡𝘾𝙈𝘿⚡`.round`,⚡𝘾𝙈𝘿⚡`.heart`,⚡𝘾𝙈𝘿⚡`.monkey`,⚡𝘾𝙈𝘿⚡`.anim`,⚡𝘾𝙈𝘿⚡`.hand`,⚡𝘾𝙈𝘿⚡`.fnl`,⚡𝘾𝙈𝘿⚡`.cnt`,⚡𝘾𝙈𝘿⚡`.kiss`\
 \nUsage: Lihat Sendiri\
 \n\n⚡𝘾𝙈𝘿⚡`.human`\
 \nUsage: Tidak Ada Yang Menarik\
