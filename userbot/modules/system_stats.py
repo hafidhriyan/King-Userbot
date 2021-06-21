@@ -165,7 +165,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**★-**⚡King-Fork-Userbot⚡ Versi:** \n "
+            "**★-**⚡Flicks-Userbot⚡ Versi:** \n "
             f"heads/King-Userbot-0-x634i7u1"
             "\n**★-**Revisi:**\n "
             f"{revout}"
@@ -229,22 +229,22 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"┗┓★ 🦖King-Fork-Userbot🦖 ★┏┛\n"
+        f"┗┓★ 🦖Flicks-Userbot🦖 ★┏┛\n"
         f"\n__**{KING_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━━**\n"
-        f"★ **✭ King Fork ✭** \n"
+        f"★ **✭ Flick Bot ✭** \n"
         f"☇ : `{DEFAULTUSER}` \n"
         f"★ **✭ Username ✭** \n"
         f"☇ : `@{user.username}` \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━\n"
-        f"|✶ ☃️ `Telethon :`Ver {version.__version__} \n"
+        f"|✶ 🐲 `Telethon :`Ver {version.__version__} \n"
         f"|✶ 🦖 `Python   :`Ver {python_version()} \n"
         f"|✶ 🧸 `Bot Ver  :`{BOT_VER} \n"
         f"|✶ 🎁 `Plugins  :`{len(modules)} \n"
         f"╰╼━━━━━━━━━━━━━━━━━━━━━\n"
-        f"📱 **Repo Userbot :** [King-Fork-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        f"📱 **Group Support :** [🧸Klik Disini🧸](https://t.me/Mengvirtual_GC) \n"
-        f"📱 **Pemilik :** [☃️Developer☃️](https://t.me/SkyzoSaja)")
+        f"📱 **Repo Userbot :** [Flicks-Userbot](https://github.com/ridho17-ind/King-Userbot) \n"
+        f"📱 **Group Support :** [🧸Klik Disini🧸](https://t.me/sadroomchat) \n"
+        f"📱 **Pemilik :** [Skyzo](https://t.me/SkyzoSaja)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -272,7 +272,7 @@ async def amireallyalive(alive):
     output = (
         f"𝗫 ★☃️KING-FORK-USERBOT☃️★ 𝗫 \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"╟ 🤴 KING FORK     : {DEFAULTUSER}\n"
+        f"╟ 🤴 Flicks     : {DEFAULTUSER}\n"
         f"╟ 🔎 Username : @{user.username}\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"╟◈ ⚙️ `Telethon :`v {version.__version__} \n"
@@ -281,9 +281,9 @@ async def amireallyalive(alive):
         f"╟◈ 🛠 `Version  :`{BOT_VER} \n"
         f"╟◈ 📂 `Plugins  :`{len(modules)} Plugin \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
-        f"◈ **REPO USERBOT  :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/Mengcirtual_GC) \n"
-        f"◈ **PEMILIK :** [Developer](https://t.me/SkyzoSaja) \n"
+        f"◈ **REPO USERBOT  :** [Flicks-Userbot](https://github.com/ridho17-ind/King-Userbot) \n"
+        f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/sadroomchat) \n"
+        f"◈ **PEMILIK :** [Skyzo](https://t.me/SkyzoSaja) \n"
         f"━━━━━━━━━━━━━━━━━━━━━╯")
     if ALIVE_LOGO:
         try:
@@ -365,12 +365,12 @@ async def redis(alive):
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f" ㅤ**★ 🐲KING-FORK-USERBOT🐲 ★** \n"
+        f" ㅤ**★ 🔰FLICKS-USERBOT🔰 ★** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🧸 **King            :**{DEFAULTUSER} \n"
+        f"╟◈ 🧸 **Lord            :**{DEFAULTUSER} \n"
         f"╟◈ ☃️ **Username :**@{user.username} \n"
         f"╟◈ 📱 **Telethon    :**v. {version.__version__} \n"
         f"╟◈ 🐲 **Python       :**v. {python_version()} \n"
@@ -381,7 +381,7 @@ async def redis(alive):
         f"├◈ **Support Terus Repo Kami** \n"
         f"│    **Dengan Link Di Bawah Ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"[Channel](https://t.me/gabutseger) | [Grup Support](t.me/Mengvirtual_GC) | "
+        f"[Channel](https://t.me/sadroomsinfo) | [Grup Support](t.me/sadroomchat) | "
         f"[Developer](t.me/SkyzoSaja)")
     if ALIVE_LOGO:
         try:
@@ -412,14 +412,14 @@ async def redis(alive):
     await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
-        f"★ [King-Userbot](https://github.com/apisuserbot/King-Userbot) **Running Userbot Active!** ★\n\n"
+        f"★ [Flicks-Userbot](https://github.com/ridho17-ind/King-Userbot) **Running Userbot Active!** ★\n\n"
         f"__**{KING_TEKS_KUSTOM}**__\n\n"
         f"{ALIVE_EMOJI} **King :** `{DEFAULTUSER}` \n"
         f"{ALIVE_EMOJI} **Plugins :** `{len(modules)} Plugin` \n"
         f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
         f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
-        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/KingUserbotSupport) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/TeamKingUserbot) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗞𝗶𝗻𝗴](t.me/PacarFerdilla)")
+        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/sadroomchat) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/sadroomsinfo) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗞𝗶𝗻𝗴](t.me/SkyzoSaja)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -463,20 +463,20 @@ async def amireallyalivereset(ureset):
 CMD_HELP.update(
     {
         "sistem": "**✘ Plugin : **`sistem`.\
-        \n\n  •  **Perintah :** `.sysd`\
-        \n  •  **Function : **Menampilkan informasi sistem menggunakan neofetch\
-        \n\n\n  •  **Perintah :** `.botver`\
-        \n  •  **Function : **Menampilkan versi userbot\
-        \n\n  •  **Perintah :** `.pip` <module(s)>\
-        \n  •  **Function : **Melakukan pencarian modul pip\
-        \n\n  •  **Perintah :** `.alive` atau `.on`\
-        \n  •  **Function : **Ketik .alive untuk melihat apakah bot Anda berfungsi atau tidak.\
-        \n\n  •  **Peeintah :** `.resetalive`\
-        \n  •  **Function : **Untuk Membanned Akun yang sedang online\
-        \n\n  •  **Perintah :** `.db`\
-        \n  •  **Function : **Menampilkan info terkait database.\
-        \n\n  •  **Perintah :** `.spc`\
-        \n  •  **Function : **Show system specification\
+        \n\n  •  **💠Perintah :** `.sysd`\
+        \n  •  **🐲Function : **Menampilkan informasi sistem menggunakan neofetch\
+        \n\n\n  •  **💠Perintah :** `.botver`\
+        \n  •  **🐲Function : **Menampilkan versi userbot\
+        \n\n  •  **💠Perintah :** `.pip` <module(s)>\
+        \n  •  **🐲Function : **Melakukan pencarian modul pip\
+        \n\n  •  **💠Perintah :** `.alive` atau `.on`\
+        \n  •  **🐲Function : **Ketik .alive untuk melihat apakah bot Anda berfungsi atau tidak.\
+        \n\n  •  **💠Peeintah :** `.resetalive`\
+        \n  •  **🐲Function : **Untuk Membanned Akun yang sedang online\
+        \n\n  •  **💠Perintah :** `.db`\
+        \n  •  **🐲Function : **Menampilkan info terkait database.\
+        \n\n  •  **💠Perintah :** `.spc`\
+        \n  •  **🐲Function : **Show system specification\
     "
     }
 )
