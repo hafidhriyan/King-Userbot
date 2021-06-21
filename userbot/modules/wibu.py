@@ -187,13 +187,17 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "random": "**✘ Plugin :** `wibu`\
-        \n\n  •  **Perintah :** `.wibu`\
-        \n  •  **Function : **Untuk melihat sesuatu yang menarik\
-        \n  •  **Function : **Lari Cuk Ada Wibuuu Arghhhh**\
-        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
-        \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
+        "menggabut": "**✘Plugin :** `Banyak`\
+        \n\n  •  **🐲Perintah :** `.wibuu`\
+        \n  •  **💠Function : **Menghina Wibu Xixixi\
+        \n\n  •  **🐲Perintah :** `.skyz`\
+        \n  •  **💠Function : **Menunjukan Kalo Skyzo Ganteng😏\
+        \n\n  •  **🐲Perintah : ** `.wibu`\
+        \n  •  **💠Function : **Ngatain Wibu Sampe Kena Mental\
+        \n\n  •  **P🐲erintah :** `.wibbu`\
+        \n  •  **💠Function : **Lari Ada Wibu Global\
+        \n\n  •  **🐲Perintah :** `.gtg`\
+        \n  •  **💠Function : **Mengjadi Anak Ganteng Dengan Sekali Click\
     "
     }
 )
