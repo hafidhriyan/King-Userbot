@@ -27,19 +27,6 @@ async def typewriter(typew):
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤ    🏂ㅤㅤ`")
 # create by skyzo
 
-@register(outgoing=True, pattern='^.skyz(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await pong.edit("__Loading Kegantengan Skyzo😎.....__")
-    await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
-    await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
-    await pong.edit("**40% ████▒▒▒▒▒▒**")
-    await pong.edit("**60% ██████▒▒▒▒**")
-    await pong.edit("**80% ████████▒▒**")
-    await pong.edit("**100% ██████████**")
-    sleep(2)
-    await typew.edit("**Skyzo Ganteng 1000%😎**")
 
 
 @register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
@@ -141,14 +128,43 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Kasian Si Wibu Wokwokwok**")
 
+@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Kekuatan Mengjadi Ganteng**")
+    await typew.edit("**Kekuatan Menjadi Ganteng Telah Aktif**")
+    sleep(3)
+    await typew.edit("**Rajin Sholat☑️**")
+    await typew.edit("**Rajin Sholat✅**")
+    sleep(2)
+    await typew.edit("**Tidak Bolos Sekolah☑️**")
+    await typew.edit("**Tidak Bolos Sekolah✅**")
+    sleep(2)
+    await typew.edit("**Gak Sangean☑️**")
+    await typew.edit("**Gak Sangean✅**")
+    sleep(2)
+    await typew.edit("**Harus Sangean☑️**")
+    await typew.edit("**Harus Sangean✅**")
+    sleep(2)
+    await typew.edit("**Tidak Alay☑️**")
+    await typew.edit("**Tidak Alay✅**")
+    sleep(2)
+    await typew.edit("**Suka Membantu☑️**")
+    await typew.edit("**Suka Membantu✅**")
+    sleep(2)
+    await typew.edit("**Selalu Berbagi Duit:v☑️**")
+    await typew.edit("**Selaly Berbagi Duit:v✅**")
+    sleep(2)
+    await typew.edit("**Sukses Menjadi Ganteng**")
+    sleep(1)
+    await typew.edit("**Iya Ganteng, Seperti Skyzo😎**")
+
 
 CMD_HELP.update(
     {
         "menggabut": "**✘Plugin :** `Banyak`\
         \n\n  •  **🐲Perintah :** `.wibuu`\
         \n  •  **💠Function : **Menghina Wibu Xixixi\
-        \n\n  •  **🐲Perintah :** `.skyz`\
-        \n  •  **💠Function : **Menunjukan Kalo Skyzo Ganteng😏\
         \n\n  •  **🐲Perintah : ** `.wibu`\
         \n  •  **💠Function : **Ngatain Wibu Sampe Kena Mental\
         \n\n  •  **P🐲erintah :** `.wibbu`\
