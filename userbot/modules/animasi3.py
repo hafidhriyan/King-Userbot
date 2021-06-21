@@ -208,16 +208,16 @@ async def _(event):
 CMD_HELP.update(
     {
         "animasi": "**✘ Plugin :** `animasi`\
-        \n\n  •  **Perintah :** `.hua`\
-        \n  •  **Function : **Untuk animasi sedih\
-        \n\n  •  **Perintah :** `.ceritacinta`\
-        \n  •  **Function : **Untuk animasi cerita cinta\
-        \n\n  •  **Perintah :** `.canda`\
-        \n  •  **Function : **Untuk animasi canda\
-        \n\n  •  **Perintah :** `.ini`\
-        \n  •  **Function : **Untuk animasi ini atau bisa lihat sendiri\
-        \n\n  •  **Perintah :** `.owner`\
-        \n  •  **Function : **Untuk animasi owner\
+        \n\n  •  **💠Perintah :** `.hua`\
+        \n  •  **🤡Function : **Untuk animasi sedih\
+        \n\n  •  **💠Perintah :** `.ceritacinta`\
+        \n  •  **🤡Function : **Untuk animasi cerita cinta\
+        \n\n  •  **💠Perintah :** `.canda`\
+        \n  •  **🤡Function : **Untuk animasi canda\
+        \n\n  •  **💠Perintah :** `.ini`\
+        \n  •  **🤡Function : **Untuk animasi ini atau bisa lihat sendiri\
+        \n\n  •  **💠Perintah :** `.owner`\
+        \n  •  **🤡Function : **Untuk animasi owner\
     "
     }
 )
