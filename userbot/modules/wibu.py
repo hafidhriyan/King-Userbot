@@ -27,6 +27,10 @@ async def typewriter(typew):
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤ    🏂ㅤㅤ`")
 # create by skyzo
 
+@register(outgoing=True, pattern='^.skyz(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
     await pong.edit("__Loading Kegantengan Skyzo😎.....__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
     await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
