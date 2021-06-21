@@ -63,7 +63,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"💠 __Test__ **PING** __|━|⎆__ ヅ "
                     f"\n  ☞ `%sms` \n"
-                    f"💠 __My__ **KING** __|━|⎆__ ヅ "
+                    f"💠 __My__ **LORD** __|━|⎆__ ヅ "
                     f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -100,11 +100,11 @@ async def pingme(pong):
     """ For .xping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....🧸King Fork🧸.....`")
+    await pong.edit("`.....🧸Flicks-Userbot🧸.....`")
     await pong.edit("`🤪`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"•⎚• ⎆ __King__ **Pong!**\n"
+    await pong.edit(f"•⎚• ⎆ __Flicks__ **Pong!**\n"
                     f"☞  __Ping:__ "
                     f"`%sms` \n"
                     f"☞  __Sisa Waktu:__ "
@@ -129,7 +129,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"═⎆ **🎳Sisa Waktu:** "
                     f"`{uptime}` \n"
-                    f"**✠➲ 🧸MyKing:** `{ALIVE_NAME}`" % (duration))
+                    f"**✠➲ 🧸My Lord:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -151,7 +151,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"**☞ I'm online  :** "
                     f"`{uptime}` \n"
-                    f"__|━|⎆__ **My king  :** `{ALIVE_NAME}`" % (duration))
+                    f"__|━|⎆__ **My Lord  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.uping$")
@@ -210,7 +210,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **🚀ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **🐲BOT:** King-Fork-Skyzo\n\n"
+                   "✧ **🐲BOT:** Flicksuserbot\n\n"
                    f" ━━━━━━━━━━━━━━━━━ ")
 
 
@@ -296,7 +296,7 @@ async def pingme(pong):
 
 CMD_HELP.update(
     {
-        "ping": "**🐲 Plugin : **`ping`\
+        "ping": "**😐 Plugin : **`ping`\
         \n\n  •  **💠Perintah :** `.ping` | `kping` | `.xping` | `.sinyal` | `.uping`\
         \n  •  **🎯Function :** Untuk menunjukkan ping userbot.\
         \n\n  •  **💠Perintah :** `.pong`\
