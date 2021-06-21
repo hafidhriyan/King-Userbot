@@ -142,34 +142,6 @@ async def typewriter(typew):
     await typew.edit("**Kasian Si Wibu Wokwokwok**")
 
 
-@register(outgoing=True, pattern='^.gtg(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-            sleep(1)
-            "**Skyzo Mengaktifkan Kekuatan Menjadi Ganteng..😏🖕**",
-            "**Kekuatan Menjadi Anak Ganteng Telah Aktif...**",
-            "**(1) Rajin Sholat ☑️**",
-            "**(1) Rajin Sholat ✅**",
-            "**(2) Sering Mandi ☑️**",
-            "**(2) Sering Mandi ✅**",
-            "**(3) No Caper Ke Cewe ☑️**",
-            "**(3) No Caper Ke Cewe ✅**",
-            "**(4) Gak Alay ☑️**",
-            "**(4) Gak Alay ✅**",
-            "**(5) Suka Menolong ☑️**",
-            "**(5) Suka Menolong ✅**",
-            "**(6) Gak Sangean ☑️**",
-            "**(6) Gak Sangean ✅**",
-            "**(7) Harus Sangean ☑️**",
-            "**(7) Harus Sangean ✅**",
-            "**(8) Pinter Di Sekolah ☑️**",
-            "**(8) Pinter Di Sekolah ✅**",
-            "**Sukses Menjadi Ganteng**",
-            "**Iya Ganteng, Seperti Skyzo :v**"
-
-        ]
-    
-
 CMD_HELP.update(
     {
         "menggabut": "**✘Plugin :** `Banyak`\
