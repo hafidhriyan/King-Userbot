@@ -67,18 +67,18 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan King-Userbot....`")
+    await event.edit("`Mematikan Flicks-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`King-Userbot Telah Dimatikan`")
+                                        "`Flicks-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Memulai ulang King-Userbot...`")
+    await event.edit("`Memulai ulang Flicks-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -95,7 +95,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "★ **Repo dan file userbot** ★\n"
-        "\n☇ [Repo ⚡️King-Fork-Userbot⚡️](https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/README.md)"
+        "\n☇ [Repo ⚡️Flicks-Userbot⚡️](https://github.com/ridho17-ind/King-Userbot/blob/King-Userbot/README.md)"
         "\n☇ [Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n☇ [Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n☇ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -122,12 +122,12 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        f"   ✘ **i'm** {DEFAULTUSER} **using userbot** ✘   \n"
-        "         🔥 __Thanks for userbot__ 🔥   \n"
-        "✣ **Repo Userbot :** [King](https://github.com/apisuserbot/King-Userbot) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/Mengvirtual_Gc) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/gabutseger) \n"
-        "✣ **Pemilik :** [Developer](https://t.me/SkyzoSaja) \n"
+        f"   ✘ **I'm** {DEFAULTUSER} **Using Userbot** ✘   \n"
+        "        🔥 __Thanks for userbot__ 🔥   \n"
+        "✣ **Repo Userbot :** [Flicks](https://github.com/ridho17-ind/King-Userbot) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/sadroomchat) \n"
+        "✣ **Channel Support :** [Klik Disini](https://t.me/sadroomsinfo) \n"
+        "✣ **Pemilik :** [Skyzo](https://t.me/SkyzoSaja) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -138,9 +138,9 @@ async def repo_is_here(wannasee):
         "         ✘ **String Session Userbot** ✘   \n"
         "          🔥 __Thanks for userbot__ 🔥  \n"
         "✣ **Get string session :** [String Session](https://replit.com/@apisuserbot/String-Session?v=1) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/mengvirtual_gc) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/gabutseger) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/skyzosaja) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/sadroomchat) \n"
+        "✣ **Channel Support :** [Klik Disini](https://t.me/sadroomsinfo) \n"
+        "✣ **Pemilik :** [Skyzo](https://t.me/skyzosaja) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -150,10 +150,10 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "         ✘ **Tutorial Using Userbot** ✘   \n"
         "          🔥 __Thanks for userbot__ 🔥  \n"
-        "✣ **Tutorial :** [Tutorial Deploy](https://t.me/TeamKingUserbot/16) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/mengvirtual_gc) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/gabutseger) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/skyzosaja) \n"
+        "✣ **Tutorial :** [Tutorial Deploy](https://t.me/sadroomsinfo) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/sadroomchat) \n"
+        "✣ **Channel Support :** [Klik Disini](https://t.me/sadrooomsinfo) \n"
+        "✣ **Pemilik :** [Skyzo](https://t.me/skyzosaja) \n"
         "          ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -340,7 +340,7 @@ CMD_HELP.update(
     {
         "sleep": "**✘ Plugin : **`sleep`\
         \n\n  •  **Perintah :** `.sleep`\
-        \n  •  **Function : **Biarkan ⚡️King-Fork-Userbot⚡️ tidur selama beberapa detik \
+        \n  •  **Function :** __Biarkan__ **Flicks-Userbot** __tidur selama beberapa detik__ \
     "
     }
 )
@@ -348,13 +348,13 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "repo": "**✘ Plugin : **`Repository` ⚡️King-Fork-Userbot⚡️\
+        "repo": "**✘ Plugin : **`Repository` ⚡️Flicks-Userbot⚡️\
         \n\n  •  **Perintah :** `.repo`\
-        \n  •  **Function : **Menampilan link Repository ⚡️King-Fork-Userbot⚡️\
+        \n  •  **Function : **Menampilan link Repository Flicks-Userbot\
         \n\n  •  **Perintah :** `.string`\
-        \n  •  **Function : **Menampilan link String ⚡️King-Fork-Userbot⚡️\
+        \n  •  **Function : **Menampilan link String ⚡️Flicks-Userbot⚡️\
         \n\n  • **Perintah :** `.tutorial`\
-        \n  •  **Function : **Menampilkan link Tutorial ⚡️King-Fork-Userbot⚡️\
+        \n  •  **Function : **Menampilkan link Tutorial ⚡️Flicks-Userbot⚡️\
     "
     }
 )
@@ -372,7 +372,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "restart": "**✘ Plugin : **`Restart` ⚡️King-Fork-Userbot⚡️\
+        "restart": "**✘ Plugin : **`Restart` ⚡️Flicks-Userbot⚡️\
         \n\n  •  **Perintah :** `.restart`\
         \n  •  **Function : **Untuk Merestart userbot.\
     "
