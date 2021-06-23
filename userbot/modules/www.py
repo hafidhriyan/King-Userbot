@@ -122,7 +122,7 @@ async def pingme(pong):
                     f"😎 **Kegantengan Skyzo:** "
                     f"`100000%` \n"
                     f"😎 **Mengontol:** "
-                    f"`Tidak Ada` \n"No Add)
+                    f"`Tidak Ada` \n**No Add**"
 
 
 @register(outgoing=True, pattern="^.xping$")
