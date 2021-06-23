@@ -171,6 +171,8 @@ CMD_HELP.update(
         \n  •  **💠Function : **__Lari Ada Wibu Global__\
         \n\n  •  **🐲Perintah :** `.geez`\
         \n  •  **💠Function : **__Mengjadi Ganteng__\
+        \n\n  •  **🐲Perintah :** `.skyzo`\
+        \n  •  **💠Function : **__Kegantengan Skyzo😎__\
     "
     }
 )
