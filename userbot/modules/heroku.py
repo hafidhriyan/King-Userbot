@@ -181,16 +181,16 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"★ **INFO KUOTA SKYZO** ★\n╔══════━━━━━━━══════╗ \n"
-                f" ➠ **🏕️Penggunaan Kuota :🏕️** `{app.name}` \n"
-                f"• **🚀Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
-                f"• **🚀Persen** : `{AppPercentage}`**%**\n"
+                f"★ **INFO KUOTA SKYZO** ★\n»»————- ★ 益 ★ ————-«« \n"
+                f" ➠ **ıllıllıPenggunaan Kuotaıllıllı :** `{app.name}` \n"
+                f"• **❖Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
+                f"• **❖Persen** : `{AppPercentage}`**%**\n"
                 f"◖═══════════════════◗ \n"
-                f" ➠ **🏆Sisa Kuota Bulan Ini🏆 :**\n"
-                f"• **🚀Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
-                f"• **🚀Persen** :  `{percentage}`**%**\n"
-                f"╚══════━━━━━━━══════╝ \n"
-                f"◈ **🧸KING**  : {ALIVE_NAME} \n"
+                f" ➠ **╚»Sisa Kuota Bulan Ini«╝:**\n"
+                f"• **»Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
+                f"• **»Persen** :  `{percentage}`**%**\n"
+                f"»»————- ★ ๑ ★ ————-«« \n"
+                f"◈ **🧸LORD**  : {ALIVE_NAME} \n"
                 f"◈ **🧸OWNER** : [SKYZO](https://t.me/skyzosaja) \n"
             )
             await asyncio.sleep(20)
@@ -222,14 +222,14 @@ async def _(dyno):
 CMD_HELP.update(
     {
         "heroku": "**✘ Plugin : **`heroku`\
-        \n\n  •  **Perintah :** `.kuota`\
-        \n  •  **Function : **Check Kouta Dyno Heroku\
-        \n\n  •  **Perintah :** `.set var <nama var> <value>`\
-        \n  •  **Function : **Tambahkan Variabel Baru Atau Memperbarui Variabel\n Setelah Menyetel Variabel ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ Akan Di Restart.\
-        \n\n  •  **Perintah :** `.get var or .get var <nama var>`\
-        \n  •  **Function : **Dapatkan Variabel Yang Ada,Harap Gunakan Di Grup Private Anda! Ini Untuk Mengembalikan Informasi Heroku Pribadi Anda.\
-        \n\n  •  **Perintah :** `.del var <nama var>`\
-        \n  •  **Function : **Untuk Menghapus var heroku\
+        \n\n  •  **🐲Perintah :** `.kuota`\
+        \n  •  **🔰Function : **Check Kouta Dyno Heroku\
+        \n\n  •  **🐲Perintah :** `.set var <nama var> <value>`\
+        \n  •  **🔰Function : **Tambahkan Variabel Baru Atau Memperbarui Variabel\n Setelah Menyetel Variabel ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ Akan Di Restart.\
+        \n\n  •  **🐲Perintah :** `.get var or .get var <nama var>`\
+        \n  •  **🔰Function : **Dapatkan Variabel Yang Ada,Harap Gunakan Di Grup Private Anda! Ini Untuk Mengembalikan Informasi Heroku Pribadi Anda.\
+        \n\n  •  **🐲Perintah :** `.del var <nama var>`\
+        \n  •  **🔰Function : **Untuk Menghapus var heroku\
     "
     }
 )
