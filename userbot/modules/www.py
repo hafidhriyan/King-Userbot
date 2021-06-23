@@ -96,33 +96,7 @@ async def pingme(pong):
                     f"`{uptime}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.skyzo$")
-async def pingme(pong):
-    """ For .kping command, ping the userbot from any chat.  """
-    uptime = await get_readable_time((time.time() - StartTime))
-    start = datetime.now()
-    await pong.edit("__**....Loading Kegantengan Skyzo....**__")
-    await pong.edit("__**.....1%.....**__")
-    await pong.edit("__**...10%...**__")
-    await pong.edit("__**...50%...**__")
-    await pong.edit("__**.....100%.....**__")
-    await pong.edit("__**...1000%...**__")
-    await pong.edit("__**.....100000%.....**__")
-    await pong.edit("__**•------»LOADING«------•**__")
-    await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
-    await pong.edit("**5% █▒▒▒▒▒▒▒▒▒**")
-    await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
-    await pong.edit("**40% ████▒▒▒▒▒▒**")
-    await pong.edit("**60% ██████▒▒▒▒**")
-    await pong.edit("**80% ████████▒▒**")
-    await pong.edit("**100% ██████████**")
-    end = datetime.now()
-    duration = (end - start).microseconds / 1000
-    await pong.edit(f"**SKYZO GANTENG**\n"
-                    f"😎 **Kegantengan Skyzo:** "
-                    f"`100000%` \n"
-                    f"😎 **Mengontol:** "
-                    f"`Tidak Ada` \n**No Add**"
+
 
 
 @register(outgoing=True, pattern="^.xping$")
