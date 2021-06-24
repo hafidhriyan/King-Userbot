@@ -66,8 +66,8 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 f'{txt}\n`Kredensial Heroku tidak valid untuk deploy King Userbot dyno.`'
             )
             return repo.__del__()
-        await event.edit('`**[HEROKU]:**'
-                         '\n**Dyno**🐲Flicks-Userbot🐲 Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
+        await event.edit('`[HEROKU]:'
+                         '\nDyno🐲Flicks-Userbot🐲 Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
