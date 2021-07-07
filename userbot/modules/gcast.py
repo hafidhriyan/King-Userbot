@@ -32,7 +32,7 @@ async def gcast(event):
 async def gucast(event):
     kinguser = event.pattern_match.group(1)
     if not kinguser:
-        return await event.edit("`Mohon Berikan Sebuah Pesan`")
+        return await event.edit("`Mohon Berikan Sebuah Pesan Njir`")
     tt = event.text
     msg = tt[7:]
     kingget = await event.edit("`Sedang Mengirim Pivate Messages Secara Global, Sabar Dulu Ya Kentot...`")
