@@ -24,7 +24,7 @@ async def typewriter(typew):
     await typew.edit("`ㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ       🏃`")
     await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ       🏃ㅤ`")
     await typew.edit("`ㅤ🏃🏻💨ㅤㅤwibuㅤ      🏃ㅤㅤㅤㅤ`")
-    await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤ    🏃ㅤㅤ`")
+    await typew.edit("`🏃🏻💨ㅤTamat Sudah   🏃ㅤㅤ`")
 # create by skyzo
 
 
@@ -171,8 +171,6 @@ CMD_HELP.update(
         \n  •  **💠Function : **__Lari Ada Wibu Global__\
         \n\n  •  **🐲Perintah :** `.geez`\
         \n  •  **💠Function : **__Mengjadi Ganteng__\
-        \n\n  •  **🐲Perintah :** `.skyzo`\
-        \n  •  **💠Function : **__Kegantengan Skyzo😎__\
     "
     }
 )
