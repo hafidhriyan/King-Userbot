@@ -80,10 +80,10 @@ async def _(event):
         " -^-^-^- **O** -^-^-^- \n"
         "__**🐲USERBOT TELEGRAM🐲**__ \n"
         "━━━━━━━━━━━━━━━━━━━━━\n"
-        f"__**Hai aku adalah bot king fork assisten {ALIVE_NAME} yang menjaga akun ini**__ \n"
+        f"__**Hai aku adalah bot Flicks assisten {ALIVE_NAME} yang menjaga akun ini**__ \n"
         "__**Terimakasih**__ \n"
         "**Enjoy Hahaha:)** \n"
-        "__**Developer by :**__ [Skyzo](https://t.me/SkyzoSaja) ")
+        "__**Developer by :**__ [Skyzo](https://t.me/XFLSKYZO) ")
 
 
 @register(outgoing=True, pattern='^.waebo(?: |$)(.*)')
@@ -125,9 +125,9 @@ CMD_HELP.update(
         \n\n  •  **Perintah :** `.punten` | `.pantau`\
         \n  •  **Function : **Untuk punten dan pantau\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer lord @XFLSkyzo Jika ingin mengidekan sesuatu yang menarik **\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer lord @XFLSkyzo Jika ingin mengidekan sesuatu yang menarik **\
     "
     }
 )
