@@ -130,7 +130,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "[🎁](https://t.me/sadroomchat"]
+            "[🎁](https://t.me/sadroomschat"]
 
         for i in animation_ttl:
 
@@ -548,7 +548,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🔴👈](https://t.me/sadroomchat)"]
+            "[👉🔴👈](https://t.me/sadroomschat)"]
 
         for i in animation_ttl:
 
@@ -1003,7 +1003,7 @@ async def _(event):
             "**(8) Change Chat Info: ☑️**",
             "**(8) Change Chat Info: ✅**",
             "**Sukses Menjadi Admin **",
-            "**Sukses ketipu Maksudnya :v**"
+            "**Jangan Lupa Join @SadRoomsChat**"
 
         ]
 
@@ -2341,7 +2341,7 @@ async def _(event):
 
             "🖕‎🐵🖕",
 
-            "**Woi Monyet, Join Lah Gc Gua @Mengvirtual_GC....**"
+            "**Woi Monyet, Join Lah Gc Gua @SadRoomsChat....**"
 
         ]
 
@@ -2447,7 +2447,7 @@ async def _(event):
 
             "0️⃣",
 
-            "**JOIN NGENTOT @MENGVIRTUAL_GC**"
+            "**JOIN NGENTOT @SadRoomsChat**"
 
         ]
 
