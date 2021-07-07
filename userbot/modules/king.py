@@ -109,6 +109,11 @@ async def typewriter(typew):
                      "`\n(>_<)`"
                      "`\n🧸<\\  Kyaa Makasih Watashi Suka Kamu >_<`")
 
+    sleep(2)
+    await typew.edit("`\n(\\_/)`"
+                     "`\n(-_-)`"
+                     "`\n/>💔  Y`")
+
 
 CMD_HELP.update(
     {
