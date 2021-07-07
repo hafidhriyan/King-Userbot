@@ -57,7 +57,7 @@ async def koc(e):
         sleep(0.05)
         await e.edit("**BHAKSSSS**")
         sleep(0.05)
-        await e.edit("**UDAH WOI SANGEAN LU ASU**💞")
+        await e.edit("**UDAH WOI SANGEAN LU ASU😒**")
 
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
