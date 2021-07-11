@@ -125,9 +125,9 @@ async def repo_is_here(wannasee):
         f"   ✘ **I'm** {DEFAULTUSER} **Using Userbot** ✘   \n"
         "        🔥 __Thanks for userbot__ 🔥   \n"
         "✣ **Repo Userbot :** [Flicks](https://github.com/ridho17-ind/King-Userbot) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/sadroomchat) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/sadroomschat) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/sadroomsinfo) \n"
-        "✣ **Pemilik :** [Skyzo](https://t.me/SkyzoSaja) \n"
+        "✣ **Pemilik :** [Skyzo](https://t.me/XFLSkyzo) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -138,9 +138,9 @@ async def repo_is_here(wannasee):
         "         ✘ **String Session Userbot** ✘   \n"
         "          🔥 __Thanks for userbot__ 🔥  \n"
         "✣ **Get string session :** [String Session](https://replit.com/@apisuserbot/String-Session?v=1) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/sadroomchat) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/sadroomschat) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/sadroomsinfo) \n"
-        "✣ **Pemilik :** [Skyzo](https://t.me/skyzosaja) \n"
+        "✣ **Pemilik :** [Skyzo](https://t.me/XFLSkyzo) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
