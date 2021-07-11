@@ -6,6 +6,7 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
+
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -88,6 +89,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**PASANG PP DULU DEK,BIAR ORANG SEGRUP TAU BETAPA HINA NYA MUKA LU, UDAH TOLOL BELAGU PULA WKWKWK, MALU SAMA YANG LAIN**")
+
 
 @register(outgoing=True, pattern='^X(?: |$)(.*)')
 async def typewriter(typew):

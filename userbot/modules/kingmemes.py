@@ -972,9 +972,8 @@ async def _(event):
 
         return
 
-    animation_interval = 1
 
-    animation_ttl = range(0, 20)
+    range(0, 20)
 
     input_str = event.pattern_match.group(1)
 
@@ -1006,6 +1005,7 @@ async def _(event):
             "**Jangan Lupa Join @SadRoomsChat**"
 
         ]
+
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
@@ -1204,7 +1204,7 @@ async def _(event):
             "¿H$NK∆NG",
             "¶H×NK&N*",
             "NGITHKIN",
-            "T+I#K@₹G", 
+            "T+I#K@₹G",
             "THINKING",
             "THI&K#N₹",
             "T+IN@I?G",
