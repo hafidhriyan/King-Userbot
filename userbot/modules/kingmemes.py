@@ -972,7 +972,6 @@ async def _(event):
 
         return
 
-
     range(0, 20)
 
     input_str = event.pattern_match.group(1)
