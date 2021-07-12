@@ -33,7 +33,7 @@ async def help(event):
         string = ""
         for i in CMD_HELP:
             string += "`" + str(i)
-            string += "`\t✷  "
+            string += "`\t🛍️  "
         await event.edit("**FLICKS-USERBOT**\n\n"
                          f"**◑» Lord** {DEFAULTUSER}\n**◑» Plugins :** `{len(modules)}`\n\n"
                          "**❒ Main Menu ↯**\n"
