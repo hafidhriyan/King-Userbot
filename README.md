@@ -27,7 +27,7 @@
 </p>
 
 ### Repo King Userbot 🚀
-Repo Yang Dikelola oleh [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repo Userbot yg ada diGithub 
+Repo Yang Dikelola oleh [Skyzo](https://t.me/xflskyzo) Dari Berbagai Repo Userbot yg ada diGithub 
 `
 Userbot digunakan untuk bersenang senang di telegram, ada beberapa fitur yg mungkin dapat membantu kamu tanpa harus mengakses apk lain`
 
